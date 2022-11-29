@@ -2,7 +2,7 @@
 
 ## Team Log
 
-*** WEEK 01 ***
+** WEEK 01 **
 From  21/11 TO 28/11 
 
 - Make a meeting to discuss the strategy for the project
