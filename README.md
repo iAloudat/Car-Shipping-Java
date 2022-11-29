@@ -2,8 +2,7 @@
 
 ## Team Log
 
-**WEEK 01**
-From  21/11 TO 28/11 
+**WEEK 01** :   21/11/2022 - 28/11/2022
 
 - Make a meeting to discuss the strategy for the project
 - Add task find a client to Everyone
