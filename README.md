@@ -1,4 +1,4 @@
-# Vanier System development Project
+# 🌎 Vanier System Development Project
 
 ## Team Log
 
