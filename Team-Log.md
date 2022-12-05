@@ -14,3 +14,12 @@
 - Arranged a meeting to discuss the strategy for the project.  🔰
 - Contact with Client Assignd to " Iyad " ❗ Iyad
 - Get requirement from Client ❗Iyad
+
+- Distribution of work tasks  🔰
+- Design Assignd to " Iyad " cooperation with team ❗ Iyad
+- Documntation Assignd To " Doris " cooperation with team ❗Doris
+- UML Assignd To " Mohammed & Doris " cooperation with team ❗Mohammed & Doris
+- User stories Assignd To All Team. 🔰
+- Java Code Assignd to " Mohammed and Siroos " cooperation with team ❗Mohammed & Siroos
+- DataBase Assignd to " Siroos & Iyad" cooperation with team ❗Siroos & Iyad
+- Implementation using MVC Assignd to " Siroos and Mohammed " cooperation with team ❗Siroos & Mohammed
