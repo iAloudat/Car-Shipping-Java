@@ -17,7 +17,7 @@
 
 - Distribution of work tasks  🔰
 - Design assigned to " Iyad " cooperation with team ❗ Iyad
-- Documntation assigned To " Doris " cooperation with team ❗Doris
+- Documentation assigned To " Doris " cooperation with team ❗Doris
 - UML assigned To " Mohammed & Doris " cooperation with team ❗Mohammed & Doris
 - User stories assigned To All Team. 🔰
 - Java Code assigned to " Mohammed and Siroos " cooperation with team ❗Mohammed & Siroos
