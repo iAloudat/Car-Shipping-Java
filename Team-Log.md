@@ -16,13 +16,13 @@
 - Get requirement from Client ❗Iyad
 
 - Distribution of work tasks  🔰
-- Design Assignd to " Iyad " cooperation with team ❗ Iyad
-- Documntation Assignd To " Doris " cooperation with team ❗Doris
-- UML Assignd To " Mohammed & Doris " cooperation with team ❗Mohammed & Doris
-- User stories Assignd To All Team. 🔰
-- Java Code Assignd to " Mohammed and Siroos " cooperation with team ❗Mohammed & Siroos
-- DataBase Assignd to " Siroos & Iyad" cooperation with team ❗Siroos & Iyad
-- Implementation using MVC Assignd to " Siroos and Mohammed " cooperation with team ❗Siroos & Mohammed
+- Design assigned to " Iyad " cooperation with team ❗ Iyad
+- Documntation assigned To " Doris " cooperation with team ❗Doris
+- UML assigned To " Mohammed & Doris " cooperation with team ❗Mohammed & Doris
+- User stories assigned To All Team. 🔰
+- Java Code assigned to " Mohammed and Siroos " cooperation with team ❗Mohammed & Siroos
+- DataBase assigned to " Siroos & Iyad" cooperation with team ❗Siroos & Iyad
+- Implementation using MVC assigned to " Siroos and Mohammed " cooperation with team ❗Siroos & Mohammed
 - Working on Project Plan - Description ❗Doris
 - Working on Project Plan - Problem Statement  ❗Siroos
 - Working on Project Plan - Scop  ❗Mohammed
