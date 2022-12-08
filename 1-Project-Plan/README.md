@@ -10,7 +10,7 @@ Contents
    - 1.2 Project Deliverables	2
    - 1.3 Schedule and Budget Summaries	3
    - 1.4  Evolution of this document	4
-   - 1.5  References	4 https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm	4
+   - 1.5  References	4 
    - 1.6 Definitions, acronyms, and abbreviations	4
 2. Project Organization	4
    - 2.1  Process model	4
@@ -111,6 +111,7 @@ ii.	Definitions, acronyms, and abbreviations - updated as necessary
 iii.	Organizational Structure will be updated as the team leaders are assigned for each phase.
 iv.	Technical Process - this section will be revised appropriately as the requirements and design decisions become clearer 
 v.	Schedule –as the project progresses, the schedule will be updated accordingly
+
 1.5  References
 
 	https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
