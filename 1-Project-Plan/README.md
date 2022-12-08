@@ -1,49 +1,45 @@
- 
-CAR SHIPPING CONTAINER PROJECT
+ # CAR SHIPPING CONTAINER PROJECT
 Team Members: Iyad Aloudat, Mohammad Altamimi, Siroos Rahimi, Doris Chan
  
  
-TABLE OF CONTENT
+## TABLE OF CONTENT
 Contents
 
-
-INTRODUCTION	1
-1.1 Project Overview	1
-1.2 Project Deliverables	2
-1.3 Schedule and Budget Summaries	3
-1.4  Evolution of this document	4
-1.5  References	4
-https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm	4
-1.6 Definitions, acronyms, and abbreviations	4
+1. INTRODUCTION	1
+   - 1.1 Project Overview	1
+   - 1.2 Project Deliverables	2
+   - 1.3 Schedule and Budget Summaries	3
+   - 1.4  Evolution of this document	4
+   - 1.5  References	4 https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm	4
+   - 1.6 Definitions, acronyms, and abbreviations	4
 2. Project Organization	4
-2.1  Process model	4
-2.2 Organizational Structure	5
-2.3 Organizational boundaries and interfaces	6
-2.4 Project responsibilities	6
-3 Managerial Process	6
-3.1 Management objectives and priorities	6
-3.2 Assumptions, dependencies, and constraint	6
-3.3 Risk management	7
-3.4 Monitoring and controlling mechanisms	7
-4  Technical process	7
-4.1 Methods, tools and techniques	7
-4.2 Software documentation	7
-4.3 Project support functions	7
+   - 2.1  Process model	4
+   - 2.2 Organizational Structure	5
+   - 2.3 Organizational boundaries and interfaces	6
+   - 2.4 Project responsibilities	6
+3. Managerial Process	6
+   - 3.1 Management objectives and priorities	6
+   - 3.2 Assumptions, dependencies, and constraint	6
+   - 3.3 Risk management	7
+   - 3.4 Monitoring and controlling mechanisms	7
+4.  Technical process	7
+   - 4.1 Methods, tools and techniques	7
+   - 4.2 Software documentation	7
+   - 4.3 Project support functions	7
 
 
  
  
-INTRODUCTION
+## 1. INTRODUCTION
 
 1.1 Project Overview
 
 The project described within this document is a Car  Shipping Container Application designed with the specific goal  to manage the shipment of the car containers loaded on the ships from origin ports, transit and destination ports. The prospective end users will find this application more useful than traditional manual one currently in use because it will facilitate the ways the business and the customers will interact with each. The aim of this project is two fold. First, the preliminary requirements given by the client will be refined into a detailed requirements description which captures real customers' real needs/wants as precisely, concisely and conceptually as possible. Secondly, a prototype will be developed which should demonstrate the key features of the detailed requirement in the real world. This document gives a preliminary plan for how the company aims to achieve the above stated aims. The first section gives an overview, describes project deliverables and itemizes the evolution of this document. Lastly the first section gives the meaning of acronyms that may be encountered in the rest of document and lists references from which guidelines have been drawn. In the second section, the organizational structure of the executing team is given and the third section shows how the team as well as the project will be managed from inception to completion. Technical Processes used are described in Section 4 while the fifth and final section details the work elements, schedule and budget for the project.
  
-1.2 Project Deliverables
-
+> 1.2 Project Deliverables
 Phase	Deliverables	Due Date
 
-Project Plan	Deliverable 1	December 12, 2022
+| Project Plan | Deliverable 1	December 12, 2022
 
 Client summary, business domain, summary, questionnaire
 	Deliverable 2	January 4, 2023
@@ -103,12 +99,12 @@ o	Revised software requirements specifications
 
 •	Present the final prototype 
 o	Meeting to discuss the comments of the clients after implementation of the MVC 
-1.3 Schedule and Budget Summaries
 
+
+> 1.3 Schedule and Budget Summaries
 	There is no budget given for this application. Therefore, this is the plan we decided for this project. According to class guidelines, the  first prototype will be delivered on Friday, January 27, 2023 and the final prototype will be delivered by Monday,  February  13, 2023.
 
-1.4  Evolution of this document
-
+> 1.4  Evolution of this document
 This project management plan is a living document and as such will be subject to change as the term of the project moves forward.  Updates should be expected the following sections=
 i.	References  - updated as necessary
 ii.	Definitions, acronyms, and abbreviations - updated as necessary
@@ -118,12 +114,18 @@ v.	Schedule –as the project progresses, the schedule will be updated according
 1.5  References
 
 	https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
-1.6 Definitions, acronyms, and abbreviations	
-
+> 1.6 Definitions, acronyms, and abbreviations	
 UML: Unified Modeling Language -  A way to visually represent the architecture, design and 		implementation  of our project
 GUI:  Graphical User Interface – method  used to mediate between user and device through
 	Visual representations and text.
 UI:  User Interface – the means by which a user and system interact
 Milestones:  end-point of a process activity
 Deliverables: project results delivered to customers
+
+
+
+
+
+
+
 
