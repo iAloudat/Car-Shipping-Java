@@ -142,5 +142,37 @@ While certain persons will be delegated specific tasks, all the members shall fu
 > 2.4 Project responsibilities
 For the responsibilities per phase of each team member per deliverable, please refer to Projet Deliverables 1.2 above. Finally, the whole project team is responsible for the successful  delivery of the project. 
 
+## 3 Managerial Process
+
+> 3.1 Management objectives and priorities
+	
+Team leadership will main the responsibility of maintaining and containing the project schedule and ensuring that all work items are completed on schedule. Leadership  is also responsible for the creation of all deliverables and scheduling/running meetings.
+
+> 3.2 Assumptions, dependencies, and constraint
+Assumptions for this project are that, through the members of the team, have sufficient  knowledge in the areas of desktop application, Java Development, Sqlite Database, communications and project management is available.
+
+In the project plan, a number of factors are taken into account:
+•	The team budget of 4 persons:  60 days
+•	The project deadline: February 13, 2023
+•	The final presentation: February 24, 2023
+NOTE: Due to deadline of February 13, 2023, running out of time will have its reflection on the product, and not on the duration of the project. By assigning a priority of every user requirement, a selection can be made of user requirements that may be dropped  out if time runs out. 
+
+> 3.3 Risk management
+This section mentions any possible risks for the project. Also methods are defined to prevent or reduce these risks:
+•	Technological risks
+•	People risks
+•	Organisational risks
+•	Requirements risks
+•	Estimation risks
+> 3.4 Monitoring and controlling mechanisms
+The monitoring and controlling  of the  progress is done by the team using the following means:
+•	Weekly project status meetings
+•	Shared document repository
+•	Every member will adhere to the choice of specific tools and components throughout the project
+•	Setup milestones in advance of the final due date for each deliverable
+•	Reassign resources to fill the gap depending on the availability and previous knowledge of what the currently unavailable resource was working on.
+•	Client will be made aware, in advance, of the amount and type of change that can be accommodated within the term of the project.
+•
+
 
 
