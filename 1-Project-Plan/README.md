@@ -123,7 +123,22 @@ UI:  User Interface – the means by which a user and system interact
 Milestones:  end-point of a process activity
 Deliverables: project results delivered to customers
 
+2.1  Process model
+We will be using the Waterfall Model as it allows for the straightforward definition of progress milestones.
+ 
+> 2.2 Organizational Structure
+	Team members: 
+i.	Iyad Aloudat
+ii.	Siroos Rahimi
+iii.	Mohammad Altamimi
+iv.	Doris Chan
+ 
+	
+> 2.3 Organizational boundaries and interfaces
+While certain persons will be delegated specific tasks, all the members shall function as both developers and testers throughout the development of the project.
 
+> 2.4 Project responsibilities
+For the responsibilities per phase of each team member per deliverable, please refer to Projet Deliverables 1.2 above. Finally, the whole project team is responsible for the successful  delivery of the project. 
 
 
 
