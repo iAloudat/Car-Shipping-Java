@@ -1,8 +1,7 @@
 # 🌎 Vanier System Development Project
 
-👉 Team Log [View](Team-Log.md)
-
-👉 Project plan [View](1-Project-Plan/README.md)
+- 👉 Team Log [View Team Log](Team-Log.md)
+- 👉 Project plan [View Team Log](1-Project-Plan/README.md)
  
 ## Schedule
 | Date | Deliverable | Status
