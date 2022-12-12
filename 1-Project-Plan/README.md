@@ -5,27 +5,27 @@ Team Members: Iyad Aloudat, Mohammad Altamimi, Siroos Rahimi, Doris Chan
 ## TABLE OF CONTENT
 Contents
 
-1. INTRODUCTION	1
-   - 1.1 Project Overview	1
-   - 1.2 Project Deliverables	2
-   - 1.3 Schedule and Budget Summaries	3
-   - 1.4  Evolution of this document	4
-   - 1.5  References	4 
-   - 1.6 Definitions, acronyms, and abbreviations	4
-2. Project Organization	4
-   - 2.1  Process model	4
-   - 2.2 Organizational Structure	5
-   - 2.3 Organizational boundaries and interfaces	6
-   - 2.4 Project responsibilities	6
-3. Managerial Process	6
-   - 3.1 Management objectives and priorities	6
-   - 3.2 Assumptions, dependencies, and constraint	6
-   - 3.3 Risk management	7
-   - 3.4 Monitoring and controlling mechanisms	7
-4.  Technical process	7
-   - 4.1 Methods, tools and techniques	7
-   - 4.2 Software documentation	7
-   - 4.3 Project support functions	7
+1. INTRODUCTION
+   - 1.1 Project Overview
+   - 1.2 Project Deliverables
+   - 1.3 Schedule and Budget Summaries
+   - 1.4  Evolution of this document
+   - 1.5  References
+   - 1.6 Definitions, acronyms, and abbreviations
+2. Project Organization
+   - 2.1  Process model
+   - 2.2 Organizational Structure
+   - 2.3 Organizational boundaries and interfaces
+   - 2.4 Project responsibilities
+3. Managerial Process
+   - 3.1 Management objectives and priorities
+   - 3.2 Assumptions, dependencies, and constraint
+   - 3.3 Risk management
+   - 3.4 Monitoring and controlling mechanisms
+4.  Technical process
+   - 4.1 Methods, tools and techniques
+   - 4.2 Software documentation	
+   - 4.3 Project support functions
 
 
  
@@ -34,26 +34,37 @@ Contents
 
 1.1 Project Overview
 
-The project described within this document is a Car  Shipping Container Application designed with the specific goal  to manage the shipment of the car containers loaded on the ships from origin ports, transit and destination ports. The prospective end users will find this application more useful than traditional manual one currently in use because it will facilitate the ways the business and the customers will interact with each. The aim of this project is two fold. First, the preliminary requirements given by the client will be refined into a detailed requirements description which captures real customers' real needs/wants as precisely, concisely and conceptually as possible. Secondly, a prototype will be developed which should demonstrate the key features of the detailed requirement in the real world. This document gives a preliminary plan for how the company aims to achieve the above stated aims. The first section gives an overview, describes project deliverables and itemizes the evolution of this document. Lastly the first section gives the meaning of acronyms that may be encountered in the rest of document and lists references from which guidelines have been drawn. In the second section, the organizational structure of the executing team is given and the third section shows how the team as well as the project will be managed from inception to completion. Technical Processes used are described in Section 4 while the fifth and final section details the work elements, schedule and budget for the project.
+The project described within this document is a Car  Shipping Container Application designed with the specific goal  to manage the shipment of the car containers loaded on the ships from origin ports, transit and destination ports. 
+
+The prospective end users will find this application more useful than traditional manual one currently in use because it will facilitate the ways the business and the customers will interact with each. 
+
+***The aim of this project is two fold.*** 
+
+First, the preliminary requirements given by the client will be refined into a detailed requirements description which captures real customers' real needs/wants as precisely, concisely and conceptually as possible.
+
+Secondly, a prototype will be developed which should demonstrate the key features of the detailed requirement in the real world. 
+
+This document gives a preliminary plan for how the company aims to achieve the above stated aims. 
+
+The first section gives an overview, describes project deliverables and itemizes the evolution of this document. 
+
+Lastly the first section gives the meaning of acronyms that may be encountered in the rest of document and lists references from which guidelines have been drawn. In the second section, the organizational structure of the executing team is given and the third section shows how the team as well as the project will be managed from inception to completion. 
+
+
+Technical Processes used are described in Section 4 while the fifth and final section details the work elements, schedule and budget for the project.
  
 > 1.2 Project Deliverables
 Phase	Deliverables	Due Date
 
-| Project Plan | Deliverable 1	December 12, 2022
-
-Client summary, business domain, summary, questionnaire
-	Deliverable 2	January 4, 2023
-Use cases, UML diagrams to model the existing system
-	Deliverable 3	January 13, 2023
-User stories to express the requirements to solve the business problem
-	Deliverable 4	January 18,2023
-Prototype user interface and client comments
-Testing and test plans
-	Deliverable 5	January 27, 2023
-Database design	Deliverable 6	February 03, 2023
-
-Implementation using MVC client comments
-	Deliverable 7	February 13, 2023
+| Date | Deliverable | Status
+|---|---|---|
+| Mon, Dec 12 | 1. Project plan | Processing |
+| Wed, Jan 04 | 2. Client summary, business domain summary, questionnaire | pending |
+| Fri, Jan 13 | 3. Use cases, UML diagrams to model the existing system | pending |
+| Wed, Jan 18 | 4. User stories to express the requirements to solve the business problem Peer evaluations | pending |
+| Fri, Jan 27 | 5. Prototype user interface and client comments | pending |
+| Fri, Feb 03 | 6. Database design | pending |
+| Mon, Feb 13 | 7. Implementation using MVC, client comments | pending |
 
 
 	Project Plan  (December 12, 2022)
