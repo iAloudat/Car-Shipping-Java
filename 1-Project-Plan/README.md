@@ -2,6 +2,10 @@
 Team Members: Iyad Aloudat, Mohammad Altamimi, Siroos Rahimi, Doris Chan
  
  
+ 
+ 
+ 
+ 
 ## TABLE OF CONTENT
 Contents
 
@@ -32,7 +36,7 @@ Contents
  
 ## 1. INTRODUCTION
 
-1.1 Project Overview
+> 1.1 Project Overview
 
 The project described within this document is a Car  Shipping Container Application designed with the specific goal  to manage the shipment of the car containers loaded on the ships from origin ports, transit and destination ports. 
 
@@ -67,7 +71,7 @@ Phase	Deliverables	Due Date
 | Mon, Feb 13 | 7. Implementation using MVC, client comments | pending |
 
 
-### 1- Project Plan  (December 12, 2022)
+#### 1- Project Plan  (December 12, 2022)
 - Car Container Project Plan
 - Meeting to discuss the strategy of the project plan
 - Each member assigned to search for clients
@@ -75,32 +79,32 @@ Phase	Deliverables	Due Date
 - Software requirements Specifications
 
 
-### 2- Client requirements (January 4, 2023)
+#### 2- Client requirements (January 4, 2023)
 - Client summary, business domain, summary, questionnaire 
 - Meeting to discuss the clients requirements
 - Progress on deliverables
 - Revised System requirements Specifications
 - Revised Software requirements Specifications
 
-### 3- User stories (January 18, 2023)
+#### 3- User stories (January 18, 2023)
 - Review user stories
 - Meeting to discuss the user stories
 - Revised system requirements specifications
 - Revised software requirements specifications
 
-### 4- Prototype User Interface for Testing(January 27, 2023)
+#### - Prototype User Interface for Testing(January 27, 2023)
 - Present the prototype to the client
 - Testing  and Test plans
 - Meeting to discuss the feedback after presenting the prototype to the client
 - Revised system requirements specifications
 - Revised software requirements specifications
 
-### 5- Database Design (February 3, 2023)
+#### 5- Database Design (February 3, 2023)
 - Meeting to discuss  the database design after discussion with client
 - Revised system requirements specifications
 - Revised software requirements specifications
 
-### 6- Implementation using MVC(February 13, 2023)
+#### 6- Implementation using MVC(February 13, 2023)
 - Present the final prototype 
 - Meeting to discuss the comments of the clients after implementation of the MVC 
 
