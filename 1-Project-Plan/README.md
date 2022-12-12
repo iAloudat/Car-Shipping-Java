@@ -32,7 +32,7 @@ Contents
  
 ## 1. INTRODUCTION
 
-> 1.1 Project Overview
+### 1.1 Project Overview
 
 The project described within this document is a Car  Shipping Container Application designed with the specific goal  to manage the shipment of the car containers loaded on the ships from origin ports, transit and destination ports. 
 
@@ -53,7 +53,7 @@ Lastly the first section gives the meaning of acronyms that may be encountered i
 
 Technical Processes used are described in Section 4 while the fifth and final section details the work elements, schedule and budget for the project.
  
-> 1.2 Project Deliverables
+### 1.2 Project Deliverables
 Phase	Deliverables	Due Date
 
 | Date | Deliverable | 
