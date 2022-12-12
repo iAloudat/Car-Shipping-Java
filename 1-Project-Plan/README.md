@@ -1,12 +1,8 @@
  # CAR SHIPPING CONTAINER PROJECT
-Team Members: Iyad Aloudat, Mohammad Altamimi, Siroos Rahimi, Doris Chan
  
- 
+![CAR SHIPPING CONTAINER PROJECT](images/CarShipping1.png)
  
- 
- 
- 
-## TABLE OF CONTENT
+ ## TABLE OF CONTENT
 Contents
 
 1. INTRODUCTION
@@ -60,15 +56,15 @@ Technical Processes used are described in Section 4 while the fifth and final se
 > 1.2 Project Deliverables
 Phase	Deliverables	Due Date
 
-| Date | Deliverable | Status
-|---|---|---|
-| Mon, Dec 12 | 1. Project plan | Processing |
-| Wed, Jan 04 | 2. Client summary, business domain summary, questionnaire | pending |
-| Fri, Jan 13 | 3. Use cases, UML diagrams to model the existing system | pending |
-| Wed, Jan 18 | 4. User stories to express the requirements to solve the business problem Peer evaluations | pending |
-| Fri, Jan 27 | 5. Prototype user interface and client comments | pending |
-| Fri, Feb 03 | 6. Database design | pending |
-| Mon, Feb 13 | 7. Implementation using MVC, client comments | pending |
+| Date | Deliverable | 
+|---|---|
+| Dec 12, 2023 | 1. Project plan | 
+| Jan 04, 2023 | 2. Client summary, business domain summary, questionnaire | 
+| Jan 13, 2023 | 3. Use cases, UML diagrams to model the existing system |
+| Jan 18, 2023 | 4. User stories to express the requirements to solve the business problem Peer evaluations | 
+| Jan 27, 2023 | 5. Prototype user interface and client comments | 
+| Feb 03, 2023 | 6. Database design | pending |
+| Feb 13, 2023 | 7. Implementation using MVC, client comments |
 
 
 #### 1- Project Plan  (December 12, 2022)
@@ -79,32 +75,37 @@ Phase	Deliverables	Due Date
 - Software requirements Specifications
 
 
-#### 2- Client requirements (January 4, 2023)
+#### 2- Client summary (January 4, 2023)
 - Client summary, business domain, summary, questionnaire 
 - Meeting to discuss the clients requirements
 - Progress on deliverables
 - Revised System requirements Specifications
 - Revised Software requirements Specifications
 
-#### 3- User stories (January 18, 2023)
-- Review user stories
+#### 3- Use cases, (Jan 13, 2023 )
+- UML diagram to model the existing system 
+- Meeting to discuss the Use cases & UML diagram
+- Revised the Use cases & UML diagram
+
+#### 4- User stories (January 18, 2023)
+- Create user stories
 - Meeting to discuss the user stories
 - Revised system requirements specifications
 - Revised software requirements specifications
 
-#### - Prototype User Interface for Testing(January 27, 2023)
+#### 5- Prototype User Interface for Testing(January 27, 2023)
 - Present the prototype to the client
 - Testing  and Test plans
 - Meeting to discuss the feedback after presenting the prototype to the client
 - Revised system requirements specifications
 - Revised software requirements specifications
 
-#### 5- Database Design (February 3, 2023)
+#### 6- Database Design (February 3, 2023)
 - Meeting to discuss  the database design after discussion with client
 - Revised system requirements specifications
 - Revised software requirements specifications
 
-#### 6- Implementation using MVC(February 13, 2023)
+#### 7- Implementation using MVC(February 13, 2023)
 - Present the final prototype 
 - Meeting to discuss the comments of the clients after implementation of the MVC 
 
