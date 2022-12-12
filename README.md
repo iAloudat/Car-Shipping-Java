@@ -1,5 +1,13 @@
 # 🌎 Vanier System Development Project
 
+
+## Team Members: 
+- Iyad Aloudat, 
+- Mohammad Altamimi, 
+- Siroos Rahimi, 
+- Doris Chan
+
+## Important Links: 
 - 👉 Team Log [+ Read more ...](Team-Log.md)
 - 👉 Project plan [+ Read more ...](1-Project-Plan/README.md)
  
