@@ -9,11 +9,11 @@ Contents
    - 1.1 Project Overview
    - 1.2 Project Deliverables
    - 1.3 Schedule and Budget Summaries
-   - 1.4  Evolution of this document
-   - 1.5  References
+   - 1.4 Evolution of this document
+   - 1.5 References
    - 1.6 Definitions, acronyms, and abbreviations
 2. Project Organization
-   - 2.1  Process model
+   - 2.1 Process model
    - 2.2 Organizational Structure
    - 2.3 Organizational boundaries and interfaces
    - 2.4 Project responsibilities
@@ -38,7 +38,7 @@ The project described within this document is a Car  Shipping Container Applicat
 
 The prospective end users will find this application more useful than traditional manual one currently in use because it will facilitate the ways the business and the customers will interact with each. 
 
-***The aim of this project is two fold.*** 
+**The aim of this project is two fold.**
 
 First, the preliminary requirements given by the client will be refined into a detailed requirements description which captures real customers' real needs/wants as precisely, concisely and conceptually as possible.
 
@@ -67,72 +67,71 @@ Phase	Deliverables	Due Date
 | Mon, Feb 13 | 7. Implementation using MVC, client comments | pending |
 
 
-	Project Plan  (December 12, 2022)
-
-•	Car Container Project Plan
-
-o	Meeting to discuss the strategy of the project plan
-o	Each member assigned to search for clients
-o	System requirements Specifications
-o	Software requirements Specifications
+### 1- Project Plan  (December 12, 2022)
+- Car Container Project Plan
+- Meeting to discuss the strategy of the project plan
+- Each member assigned to search for clients
+- System requirements Specifications
+- Software requirements Specifications
 
 
-	Client requirements (January 4, 2023)
-•	Client summary, business domain, summary, questionnaire 
-o	Meeting to discuss the clients requirements
-o	Progress on deliverables
-o	Revised System requirements Specifications
-o	Revised Software requirements Specifications
+### 2- Client requirements (January 4, 2023)
+- Client summary, business domain, summary, questionnaire 
+- Meeting to discuss the clients requirements
+- Progress on deliverables
+- Revised System requirements Specifications
+- Revised Software requirements Specifications
 
-	User stories (January 18, 2023)
+### 3- User stories (January 18, 2023)
+- Review user stories
+- Meeting to discuss the user stories
+- Revised system requirements specifications
+- Revised software requirements specifications
 
-•	Review user stories
-o	Meeting to discuss the user stories
-o	Revised system requirements specifications
-o	Revised software requirements specifications
+### 4- Prototype User Interface for Testing(January 27, 2023)
+- Present the prototype to the client
+- Testing  and Test plans
+- Meeting to discuss the feedback after presenting the prototype to the client
+- Revised system requirements specifications
+- Revised software requirements specifications
 
-	Prototype User Interface for Testing(January 27, 2023)
+### 5- Database Design (February 3, 2023)
+- Meeting to discuss  the database design after discussion with client
+- Revised system requirements specifications
+- Revised software requirements specifications
 
-•	Present the prototype to the client
-•	Testing  and Test plans
-
-o	Meeting to discuss the feedback after presenting the prototype to the client
-o	Revised system requirements specifications
-o	Revised software requirements specifications
-
-	Database Design (February 3, 2023)
-
-o	Meeting to discuss  the database design after discussion with client
-o	Revised system requirements specifications
-o	Revised software requirements specifications
-
-	Implementation using MVC(February 13, 2023)
-
-•	Present the final prototype 
-o	Meeting to discuss the comments of the clients after implementation of the MVC 
+### 6- Implementation using MVC(February 13, 2023)
+- Present the final prototype 
+- Meeting to discuss the comments of the clients after implementation of the MVC 
 
 
 > 1.3 Schedule and Budget Summaries
-	There is no budget given for this application. Therefore, this is the plan we decided for this project. According to class guidelines, the  first prototype will be delivered on Friday, January 27, 2023 and the final prototype will be delivered by Monday,  February  13, 2023.
+here is no budget given for this application. Therefore, this is the plan we decided for this project. 
+
+- The  first prototype will be delivered on Friday, January 27, 2023 
+- The final prototype will be delivered by Monday,  February  13, 2023.
 
 > 1.4  Evolution of this document
-This project management plan is a living document and as such will be subject to change as the term of the project moves forward.  Updates should be expected the following sections=
-i.	References  - updated as necessary
-ii.	Definitions, acronyms, and abbreviations - updated as necessary
-iii.	Organizational Structure will be updated as the team leaders are assigned for each phase.
-iv.	Technical Process - this section will be revised appropriately as the requirements and design decisions become clearer 
-v.	Schedule –as the project progresses, the schedule will be updated accordingly
+This project management plan is a living document and as such will be subject to change as the term of the project moves forward.  Updates should be expected the following sections
+- References  - updated as necessary
+- Definitions, acronyms, and abbreviations - updated as necessary
+- Organizational Structure will be updated as the team leaders are assigned for each phase.
+- Technical Process - this section will be revised appropriately as the requirements and design decisions become clearer 
+- Schedule –as the project progresses, the schedule will be updated accordingly
 
-1.5  References
+> 1.5  References
+https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
 
-	https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
 > 1.6 Definitions, acronyms, and abbreviations	
-UML: Unified Modeling Language -  A way to visually represent the architecture, design and 		implementation  of our project
-GUI:  Graphical User Interface – method  used to mediate between user and device through
-	Visual representations and text.
-UI:  User Interface – the means by which a user and system interact
-Milestones:  end-point of a process activity
-Deliverables: project results delivered to customers
+- UML: Unified Modeling Language -  A way to visually represent the architecture, design and 		implementation  of our project
+- GUI:  Graphical User Interface – method  used to mediate between user and device through
+- Visual representations and text.
+- UI:  User Interface – the means by which a user and system interact
+- Milestones:  end-point of a process activity
+- Deliverables: project results delivered to customers
+
+
+
 
 ## 2. Project Organization
 
@@ -140,11 +139,11 @@ Deliverables: project results delivered to customers
 We will be using the Waterfall Model as it allows for the straightforward definition of progress milestones.
  
 > 2.2 Organizational Structure
-	Team members: 
-i.	Iyad Aloudat
-ii.	Siroos Rahimi
-iii.	Mohammad Altamimi
-iv.	Doris Chan
+** Team members: ** 
+- Iyad Aloudat - Developer & UI
+- Siroos Rahimi - Developer & Data Base
+- Mohammad Altamimi - Developer & UML
+- Doris Chan - Developer & Copywriter 
  
 	
 > 2.3 Organizational boundaries and interfaces
@@ -163,28 +162,31 @@ Team leadership will main the responsibility of maintaining and containing the p
 Assumptions for this project are that, through the members of the team, have sufficient  knowledge in the areas of desktop application, Java Development, Sqlite Database, communications and project management is available.
 
 In the project plan, a number of factors are taken into account:
-•	The team budget of 4 persons:  60 days
-•	The project deadline: February 13, 2023
-•	The final presentation: February 24, 2023
-NOTE: Due to deadline of February 13, 2023, running out of time will have its reflection on the product, and not on the duration of the project. By assigning a priority of every user requirement, a selection can be made of user requirements that may be dropped  out if time runs out. 
+- The team budget of 4 persons:  60 days
+- The project deadline: February 13, 2023
+- The final presentation: February 24, 2023
+
+
+NOTE: Due to deadline of February 13, 2023, running out of time will have its reflection on the product, and not on the duration of the project. 
+
+By assigning a priority of every user requirement, a selection can be made of user requirements that may be dropped  out if time runs out. 
 
 > 3.3 Risk management
 This section mentions any possible risks for the project. Also methods are defined to prevent or reduce these risks:
-•	Technological risks
-•	People risks
-•	Organisational risks
-•	Requirements risks
-•	Estimation risks
+- Technological risks
+- People risks
+- Organisational risks
+- Requirements risks
+- Estimation risks
 
 > 3.4 Monitoring and controlling mechanisms
 The monitoring and controlling  of the  progress is done by the team using the following means:
-•	Weekly project status meetings
-•	Shared document repository
-•	Every member will adhere to the choice of specific tools and components throughout the project
-•	Setup milestones in advance of the final due date for each deliverable
-•	Reassign resources to fill the gap depending on the availability and previous knowledge of what the currently unavailable resource was working on.
-•	Client will be made aware, in advance, of the amount and type of change that can be accommodated within the term of the project.
-•
+- Weekly project status meetings
+- Shared document repository
+- Every member will adhere to the choice of specific tools and components throughout the project
+- Setup milestones in advance of the final due date for each deliverable
+- Reassign resources to fill the gap depending on the availability and previous knowledge of what the currently unavailable resource was working on.
+- Client will be made aware, in advance, of the amount and type of change that can be accommodated within the term of the project.
 
 ## 4  Technical process
 
