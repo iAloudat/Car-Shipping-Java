@@ -25,6 +25,6 @@
 - Implementation using MVC assigned to " Siroos and Mohammed " cooperation with team ❗Siroos & Mohammed
 - Working on Project Plan - Description ❗Doris
 - Working on Project Plan - Problem Statement  ❗Siroos
-- Working on Project Plan - Scop  ❗Mohammed
+- Working on Project Plan - Technical process  ❗Mohammed
 - Working on Project Plan - Timeline  ❗Iyad
 - Working on Project Plan - Milestones and deadline  🔰 
