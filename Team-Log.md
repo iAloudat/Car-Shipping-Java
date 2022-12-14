@@ -23,8 +23,8 @@
 - Java Code assigned to " Mohammad and Siroos " cooperation with team ❗Mohammad & Siroos
 - DataBase assigned to " Siroos & Iyad" cooperation with team ❗Siroos & Iyad
 - Implementation using MVC assigned to " Siroos and Mohammad " cooperation with team ❗Siroos & Mohammad
-- Working on Project Plan - Description ❗Doris
-- Working on Project Plan - Problem Statement  ❗Siroos
+- Working on Project Plan - Introduction  ❗Doris
+- Working on Project Plan - Project Organization  ❗Siroos
 - Working on Project Plan - Technical process  ❗Mohammad
 - Working on Project Plan - Timeline  ❗Iyad
 - Working on Project Plan - Milestones and deadline  🔰 
