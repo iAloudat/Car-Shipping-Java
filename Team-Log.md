@@ -18,13 +18,13 @@
 - Distribution of work tasks  🔰
 - Design assigned to " Iyad " cooperation with team ❗ Iyad
 - Documentation assigned To " Doris " cooperation with team ❗Doris
-- UML assigned To " Mohammed & Doris " cooperation with team ❗Mohammed & Doris
+- UML assigned To " Mohammad & Doris " cooperation with team ❗Mohammad & Doris
 - User stories assigned To All Team. 🔰
-- Java Code assigned to " Mohammed and Siroos " cooperation with team ❗Mohammed & Siroos
+- Java Code assigned to " Mohammad and Siroos " cooperation with team ❗Mohammad & Siroos
 - DataBase assigned to " Siroos & Iyad" cooperation with team ❗Siroos & Iyad
-- Implementation using MVC assigned to " Siroos and Mohammed " cooperation with team ❗Siroos & Mohammed
+- Implementation using MVC assigned to " Siroos and Mohammad " cooperation with team ❗Siroos & Mohammad
 - Working on Project Plan - Description ❗Doris
 - Working on Project Plan - Problem Statement  ❗Siroos
-- Working on Project Plan - Technical process  ❗Mohammed
+- Working on Project Plan - Technical process  ❗Mohammad
 - Working on Project Plan - Timeline  ❗Iyad
 - Working on Project Plan - Milestones and deadline  🔰 
