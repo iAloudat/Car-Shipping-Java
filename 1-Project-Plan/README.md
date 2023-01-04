@@ -27,8 +27,23 @@ Contents
     - 4.1 Methods, tools and techniques.
     - 4.2 Software documentation.
     - 4.3 Project support functions.
-    
+    - Project development language
+    - Hardware
  
+ 5. Timeline - Gantt chart 
+ 
+ 6. Project Structure
+    - Client
+    - Loading Report
+    - Car Information 
+ 
+7. Project Wireframe
+   - Home Interface sketch
+   - Client Interface sketch
+   - Loading Report Interface sketch
+   - Cars Interface sketch
+   - Search Interface sketch
+
 
 ## 1. INTRODUCTION
 
