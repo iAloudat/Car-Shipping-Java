@@ -27,6 +27,8 @@ Contents
     - 4.1 Methods, tools and techniques.
     - 4.2 Software documentation.
     - 4.3 Project support functions.
+    
+ 
 
 ## 1. INTRODUCTION
 
@@ -66,9 +68,7 @@ Phase Deliverables Due Date
 
 >1- Project Plan  (December 12, 2022)
 
-- Car Container Project Plan
 - Meeting to discuss the strategy of the project plan
-- Each member assigned to search for clients
 - System requirements Specifications
 - Software requirements Specifications
 
@@ -112,7 +112,7 @@ Phase Deliverables Due Date
 - Present the final prototype.
 - Meeting to discuss the comments of the clients after implementation of the MVC.
 
-### 1.3 Schedule and Budget Summaries
+### 1.3 Budget Summaries
 
 here is no budget given for this application. Therefore, this is the plan we decided for this project.
 
@@ -121,7 +121,7 @@ here is no budget given for this application. Therefore, this is the plan we dec
 
 ### 1.4  Evolution of this document
 
-This project management plan is a living document and as such will be subject to change as the term of the project moves forward.  Updates should be expected the following sections
+This project management plan is a living document and as such will be subject to change as the term of the project moves forward. Updates should be expected the following sections
 
 - References  - updated as necessary
 - Definitions, acronyms, and abbreviations - updated as necessary
@@ -129,11 +129,8 @@ This project management plan is a living document and as such will be subject to
 - Technical Process - this section will be revised appropriately as the requirements and design decisions become clearer
 - Schedule –as the project progresses, the schedule will be updated accordingly
 
-### 1.5  References
 
-<https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm>
-
-### 1.6 Definitions, acronyms, and abbreviations
+### 1.5 Definitions, acronyms, and abbreviations
 
 - UML: Unified Modeling Language -  A way to visually represent the architecture, design and implementation  of our project
 - GUI:  Graphical User Interface – method  used to mediate between user and device through
@@ -220,3 +217,50 @@ The software users manual shall be generated along with the functional requireme
 ### 4.3 Project support functions
 
 All project support documents will be completed in applicable phases.
+
+### 4.4 Project development language
+
+Project development language is, JAVA and SQL
+
+### 4.5 Hardware
+
+The client will provide a new desktop computer to install the system
+
+- HP EliteDesk 800 G4 Desktop Computer - Intel Core i5 (8th Gen) i5-8500 3GHz - 8GB DDR4 SDRAM - 256GB SSD - Windows 10 Pro
+- HP EliteDisplay E231 23-inch LED Backlit Monitor
+
+
+## 5. Timeline - Gantt chart
+
+
+## 6. Project Structure
+
+
+### 6.1 Client
+- Client ID:
+- Client Name
+- Company Name
+- Tel
+- Email
+### 6.2 Loading Report
+- Client ID:
+- Date
+- Booking Number
+- Destination Country
+- Container Number
+- Container weight
+### 6.3 Car Information
+- Car Information
+- VIN Number
+- Car Model
+- Car Color
+- Car Year
+- Car weight
+- Car Price
+
+## 7. Project Wireframe
+
+### 7.1 Home Interface sketch
+
+
+
