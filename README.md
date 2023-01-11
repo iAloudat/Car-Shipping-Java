@@ -9,8 +9,9 @@
 
 ## Important Links: 
 - 👉 Team Log [+ Read more ...](Team-Log.md)
-- 👉 Project plan [+ Read more ...](1-Project-Plan/README.md)
- 
+- 👉 Project plan [+ Read more ...](1-Project-Plan)
+- 👉 Client summary, questionnaire  [+ Read more ...](2-Client-Summary)
+
 ## Schedule
 | Date | Deliverable | Status
 |---|---|---|
