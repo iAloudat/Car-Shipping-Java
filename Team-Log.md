@@ -28,3 +28,30 @@
 - Working on Project Plan - Technical process  ❗Mohammad
 - Working on Project Plan - Timeline  ❗Iyad
 - Working on Project Plan - Milestones and deadline  🔰 
+
+> WEEK 03 :   5/12/2022 - 09/12/2022
+- Arranged a meeting to discuss the Project Plan.  🔰
+- Update Project Plan - Introduction  ❗Doris
+- Update Project Plan - Project Organization  ❗Siroos
+- Update Project Plan - Technical process  ❗Mohammad
+- Update Project Plan - Timeline, Project Structure, Project Wireframe ❗Iyad
+
+
+> WEEK 04 :   12/12/2022 - 16/12/2022
+- Arranged a meeting to discuss the Project Structure & Development Strategy .  🔰
+- Searching for suitable ideas and methods to implement the project 🔰
+
+> WEEK 05 :   02/01/2023 - 06/01/2023
+- Arranged a meeting to discuss the Client summary, business domain summary, questionnaire .  🔰
+- Write Client summary (Introduction,How do the company ship vehicles?,Shipping Insurance)  ❗Doris
+- Write Client summary (Shipping Quote, Vehicle Reception, After Shipment)    ❗Mohammad
+- Write Questionnaire (General, Documentation)  ❗Iyad
+- Write Questionnaire (Audience, Risks Assessments) ❗Siroos
+
+> WEEK 06 :   09/01/2023 - 13/01/2023
+- Arranged a meeting to discuss the Client summary, business domain summary, questionnaire .  🔰
+- Update Client summary (Introduction,How do the company ship vehicles?,Shipping Insurance)  ❗Doris
+- Update Client summary (Shipping Quote, Vehicle Reception, After Shipment)    ❗Mohammad
+- Update Questionnaire (General, Documentation)  ❗Iyad
+- Update Questionnaire (Audience, Risks Assessments) ❗Siroos
+- Arranged a meeting to discuss the Use cases, UML diagram .  🔰
