@@ -15,7 +15,7 @@
 	- [ ] Organizing client information
 	- [ ] Archiving
 
-2. What level of involvement is our to be in the projec?
+2. What level of involvement is ours to be in the projec?
 
 	- [ ] Researching
 	- [ ] Design
@@ -72,7 +72,7 @@
 
 1. What is the general purpose of the document(s) for the project
 	- [ ] Training 
-	- [X] Quick Reference
+	- [ ] Quick Reference
 	- [ ] Frequent Reference
 	- [ ] Installation 
 	- [ ] Configuration
@@ -82,7 +82,7 @@
 2. In what format(s) are you expecting the documentation to be delivered – , soft copy(online), website, and so on?
 
 	- [ ] Hard copy 
-	- [X] Soft copy
+	- [ ] Soft copy
 
 3. Do you need training materials developed/single-sourced from the user documentation?
 	- [ ] Yes 
