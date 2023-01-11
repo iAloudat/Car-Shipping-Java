@@ -1,5 +1,59 @@
+
 # Client summary, business domain summary
-❗ Doris  >> Add your Text Below 
+
+
+### Introduction
+
+The company provides transportation services for shipping all kinds of vehicles including exotic and vintage cars, vans, and SUVs in specialized containers. 
+
+These containers are designed to protect the vehicles during shipping and are typically large enough to hold one or more vehicles. 
+
+The company provides a range of services, including pick-up and delivery of vehicles and containers, and vehicles loading.
+
+It also offers services such as tracking and tracing of shipments, and insurance for the vehicles being transported. We also operate on a global scale, shipping cars from Canada to various countries around the world such as Australia, the UK, the USA, Hong Kong, Dubai, Malaysia, and South Africa.  
+
+The company serve a variety of clients, including individuals, auto dealerships, and manufacturers.
+ 
+### How do the company ship vehicles?
+
+Full Container Load(FCL) shipping is the safest way to transport cars.  
+
+The company also uses a special shipping technique to load as many as four cars inside a 40-foot container instead of the standard two, which saves both money and time. 
+
+The company takes care of all other requirements associated with international car shipping, including loading and unloading.
+
+### Information & Documents Needed for International  Car Shipping
+
+The company prepare the following documents that are needed:
+
+- B-13 Canadian Export Document
+- Bill of lading
+- Express Release
+
+
+However, the client needs to provide the following information:
+
+- Copies of car insurance and registration
+- Names of owner and receiver
+
+### Shipping Insurance
+
+One of the main objectives is to provide the safety of clients’ vehicles, so the company strongly recommends global shipping insurance (either marine or cargo insurance) to all customers. 
+
+The company is authorized by Lloyd’s of London to provide global shipping insurance on cargo and shipping methods. 
+
+So the company can also prepare cargo marine insurance certificates that are specifically designed to ensure the clients’ vehicles.
+
+Cargo insurance provides cargo insurance for the shipments, in case of damage or loss in transit. 
+
+It covers the shipment from the time it is packed to the time it is delivered to the destination. 
+
+Shipping insurance includes the following:
+
+- Comprehensive coverage at competitive rates
+- Efficient claims processing
+- Complete peace of mind
+- Coverage against theft, loss, delay, and damage
 
 ❗ Mohammed 
 ### Shipping Quote
