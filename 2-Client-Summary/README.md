@@ -196,4 +196,66 @@ The balance needs to be paid without delay so that the vehicle can be cleared th
 	- [ ] Yes 
 	- [ ] No
   
-❗ Siroos  >> Add your Text Below 
+❗ Siroos
+### Audience
+
+1. What is the level of familiarity with computers?
+	- [ ] Beginner 
+	- [ ] Intermediate
+	- [ ] Advanced
+
+2. What is your users’ primary language?
+	- [ ] English 
+	- [ ] French
+	- [ ] No preference	
+
+3. Will the documentation need to be localized and/or translated?
+	- [ ] Yes 
+	- [ ] No
+
+4. Have your users used similar products before?
+	- [ ] Yes 
+	- [ ] No
+5. What is the technical level/background of your users?
+	- [ ] Beginner 
+	- [ ] Intermediate
+	- [ ] Advanced
+
+
+ 
+
+### Risks Assessments
+
+1.  do you have any specific requirements to avoid incompatibility with your already existing systems?
+	- [ ] Yes 
+	- [ ] No
+
+2. Do you plan to have any backup systems and/or disaster recovery plans if ever a system downtime arises?
+	- [ ] Yes 
+	- [ ] No
+
+3. If Yes, what kind?
+	- [ ] Cloud backup 
+	- [ ] Redundant server 
+	- [ ] Datacenter
+	- [ ] Redundant power supplies
+	- [ ] Edundant internet connections
+	- [ ] Regular maintenance
+	- [ ] Regular monitoring
+
+4. Are you planning to give training to your employees on how to use the software?
+	- [ ] Yes 
+	- [ ] No
+
+5. If Yes, what is her technical level or background? 
+	- [ ] Beginner 
+	- [ ] Intermediate
+	- [ ] Advanced
+
+6. Are all the stakeholders of the company, including management and staff are aware of the software project? 
+	- [ ] Yes 
+	- [ ] No
+
+7. Have you planned sufficient resources (in terms of budget, personnel , infrastructure, etc ) to implement the new software application?
+	- [ ] Yes 
+	- [ ] No
