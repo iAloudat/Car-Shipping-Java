@@ -1,7 +1,8 @@
+
+
+![Client summary, business domain summary](images/cover1.png)
 ❗ Doris
 # Client summary, business domain summary
-
-
 ### Introduction
 
 The company provides transportation services for shipping all kinds of vehicles including exotic and vintage cars, vans, and SUVs in specialized containers. 
@@ -101,7 +102,7 @@ Payment will be automatically requested 5 days prior to the arrival of the vesse
 
 The balance needs to be paid without delay so that the vehicle can be cleared through customs, otherwise, storage charges will be incurred.	
 
-
+![Client Questionnaire](images/cover2.png)
 ❗ Iyad 
 # Client Questionnaire
 
