@@ -1,8 +1,9 @@
 
 
 ![Client summary, business domain summary](images/cover1.png)
-❗ Doris
+
 # Client summary, business domain summary
+❗ Doris
 ### Introduction
 
 The company provides transportation services for shipping all kinds of vehicles including exotic and vintage cars, vans, and SUVs in specialized containers. 
