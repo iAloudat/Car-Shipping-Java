@@ -246,7 +246,7 @@ The client will provide a new desktop computer to install the system
 
 
 ## 5. Timeline - Gantt chart
-
+![TimeLine](images/01.png)
 
 ## 6. Project Structure
 
@@ -275,7 +275,7 @@ The client will provide a new desktop computer to install the system
 
 ## 7. Project Wireframe
 
-### 7.1 Home Interface sketch
-
-
+![TimeLine](images/02.png)
+![TimeLine](images/03.png)
+![TimeLine](images/04.png)
 
