@@ -246,6 +246,8 @@ The client will provide a new desktop computer to install the system
 
 
 ## 5. Timeline - Gantt chart
+Tools: https://www.onlinegantt.com/#/gantt
+
 ![TimeLine](images/01.png)
 
 ## 6. Project Structure
