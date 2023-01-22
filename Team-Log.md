@@ -55,3 +55,12 @@
 - Update Questionnaire (General, Documentation)  ❗Iyad
 - Update Questionnaire (Audience, Risks Assessments) ❗Siroos
 - Arranged a meeting to discuss the Use cases, UML diagram .  🔰
+
+> WEEK 07 :   16/01/2023 - 20/01/2023
+- Arranged a meeting to discuss the Use cases, UML diagram .  🔰
+- Class Diag ❗Siroos
+- State Diagram  ❗Iyad
+- Create Sequence Diagram ❗Doris
+- Use Case Diagram  ❗Mohammad
+- Arranged a meeting to Update UML diagram .  🔰
+
