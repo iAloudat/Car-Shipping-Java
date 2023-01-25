@@ -17,8 +17,9 @@
 |---|---|---|
 | Mon, Dec 12 | 1. Project plan | Done |
 | Wed, Jan 04 | 2. Client summary, business domain summary, questionnaire | Done  |
-| Fri, Jan 13 | 3. Use cases, UML diagrams to model the existing system | Done |
-| Wed, Jan 18 | 4. User stories to express the requirements to solve the business problem Peer evaluations | pending |
-| Fri, Jan 27 | 5. Prototype user interface and client comments | pending |
-| Fri, Feb 03 | 6. Database design | pending |
-| Mon, Feb 13 | 7. Implementation using MVC, client comments | pending |
+| Mon, Jan 23 | 3. Use cases, UML diagrams to model the existing system | Done |
+| Wed, Feb 01 | 4. User stories to express the requirements to solve the business problem Peer evaluations | pending |
+| Wed, Feb 01 | 5. Prototype user interface and client comments | pending |
+| Wed, Feb 08 | 6. Database design | pending |
+| Thu, Feb 16 | 7. Implementation using MVC, client comments | pending |
+| Fri, Feb 24 | 8. Finale | pending |
