@@ -29,7 +29,7 @@ Story 3
 
     Back of Card: The application uses a database to store customer information, which can be accessed and managed on the customer management page. The company can also use this data to generate reports and track customer satisfaction.
     
-    ### Story 4
+   ### Story 4
 As a car shipping company. 
 - I want to be able to generate and print shipping documents, such as bills of lading and packing lists, directly from the container shipping application. 
 - So that I can streamline the shipping process and reduce the risk of errors.
