@@ -28,3 +28,14 @@ Story 3
     Front of Card: The car shipping company opens the container shipping application and navigates to the customer management page. They can view a list of all customers, including contact information, shipping history, and any outstanding issues. They can also add new customers or edit existing customer information.
 
     Back of Card: The application uses a database to store customer information, which can be accessed and managed on the customer management page. The company can also use this data to generate reports and track customer satisfaction.
+    
+    ### Story 4
+As a car shipping company. 
+- I want to be able to generate and print shipping documents, such as bills of lading and packing lists, directly from the container shipping application. 
+- So that I can streamline the shipping process and reduce the risk of errors.
+
+>  Front of Card: 
+The car shipping company opens the container shipping application and navigates to the document generation page. They enter the necessary information, such as the car's make, model, and shipping details, and then generate and print the shipping documents.
+
+>  Back of Card: 
+The application uses the inputted information to automatically generate and print the necessary shipping documents, such as bills of lading and packing lists, allowing the company to streamline the shipping process and reduce the risk of errors.
