@@ -19,7 +19,7 @@ The car shipping company opens the container shipping application and navigates 
 >  Back of Card: 
 The application uses the inputted information to create a new car shipment in the database. It also uses this information to generate shipping documents and labels, and to track the progress of the shipment. The application also allows the company to manage and update the information of the shipment.
 
-Story 3
+### Story 3
 
     As a car shipping company.
     I want to be able to access and manage customer information.
