@@ -28,6 +28,7 @@ The application uses the inputted information to create a new car shipment in th
     Front of Card: The car shipping company opens the container shipping application and navigates to the customer management page. They can view a list of all customers, including contact information, shipping history, and any outstanding issues. They can also add new customers or edit existing customer information.
 
     Back of Card: The application uses a database to store customer information, which can be accessed and managed on the customer management page. The company can also use this data to generate reports and track customer satisfaction.
+
     
    ### Story 4
 As a car shipping company. 
