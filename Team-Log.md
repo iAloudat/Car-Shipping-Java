@@ -70,7 +70,7 @@
 - Arranged a meeting to discuss the Deliverable 4 - User Stories.  🔰
 - Arranged a meeting to discuss the Deliverable 5 - User Interface Design.  🔰
 - Arranged a meeting to Update User Stories.  🔰
-- UI Design  ❗Iyad
+- Design Graphic UI For System  ❗Iyad
 - Write User Story 1 & 2 ❗Iyad
 - Write User Story 3 ❗Dori
 - Write User Story 4 ❗Siroos
