@@ -71,7 +71,7 @@
 - Arranged a meeting to discuss the Deliverable 5 - User Interface Design.  🔰
 - Arranged a meeting to Update User Stories.  🔰
 - UI Design  ❗Iyad
-- Write 1 & 2 ❗Iyad
+- Write User Story 1 & 2 ❗Iyad
 - Write User Story 3 ❗Dori
 - Write User Story 4 ❗Siroos
 - Write User Story 5 ❗Mohammad
