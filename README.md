@@ -8,9 +8,14 @@
 - Doris Chan
 
 ## Important Links: 
-- 👉 Team Log [+ Read more ...](Team-Log.md)
-- 👉 Project plan [+ Read more ...](1-Project-Plan)
-- 👉 Client summary, questionnaire  [+ Read more ...](2-Client-Summary)
+- 👉 * Team Log [+ Read more ...](Team-Log.md)
+- 👉 1. Project plan [+ Read more ...](1-Project-Plan)
+- 👉 2. Client Summary, Questionnaire  [+ Read more ...](2-Client-Summary)
+- 👉 3. Use Cases UML [+ Read more ...](3-Use-Cases-UML)
+- 👉 4. User Stories [+ Read more ...](4-User-Stories)
+- 👉 5. Prototype UI[+ Read more ...](5-PrototypeUI)
+- 👉 6. Database Design [+ Read more ...](6-Database-Design)
+- 👉 7. MVC  [+ Read more ...](7-MVC)
 
 ## Schedule
 | Date | Deliverable | Status
