@@ -30,7 +30,7 @@
 - Working on Project Plan - Milestones and deadline  🔰 
 
 > WEEK 03 :   5/12/2022 - 09/12/2022
-- Arranged a meeting to discuss the Project Plan.  🔰
+- Arranged a meeting to discuss the Deliverable 1 -  Project Plan.  🔰
 - Update Project Plan - Introduction  ❗Doris
 - Update Project Plan - Project Organization  ❗Siroos
 - Update Project Plan - Technical process  ❗Mohammad
@@ -42,25 +42,47 @@
 - Searching for suitable ideas and methods to implement the project 🔰
 
 > WEEK 05 :   02/01/2023 - 06/01/2023
-- Arranged a meeting to discuss the Client summary, business domain summary, questionnaire .  🔰
+- Arranged a meeting to discuss the Deliverable 2 - Client summary & Questionnaire .  🔰
 - Write Client summary (Introduction,How do the company ship vehicles?,Shipping Insurance)  ❗Doris
 - Write Client summary (Shipping Quote, Vehicle Reception, After Shipment)    ❗Mohammad
 - Write Questionnaire (General, Documentation)  ❗Iyad
 - Write Questionnaire (Audience, Risks Assessments) ❗Siroos
 
 > WEEK 06 :   09/01/2023 - 13/01/2023
-- Arranged a meeting to discuss the Client summary, business domain summary, questionnaire .  🔰
+- Arranged a meeting to discuss the Update on Client summary & Questionnaire .  🔰
+- Arranged a meeting to discuss the Use cases, UML diagram .  🔰
 - Update Client summary (Introduction,How do the company ship vehicles?,Shipping Insurance)  ❗Doris
 - Update Client summary (Shipping Quote, Vehicle Reception, After Shipment)    ❗Mohammad
 - Update Questionnaire (General, Documentation)  ❗Iyad
 - Update Questionnaire (Audience, Risks Assessments) ❗Siroos
-- Arranged a meeting to discuss the Use cases, UML diagram .  🔰
+
 
 > WEEK 07 :   16/01/2023 - 20/01/2023
-- Arranged a meeting to discuss the Use cases, UML diagram .  🔰
+- Arranged a meeting to discuss the Deliverable 3 -  Use cases, UML diagram .  🔰
+- Arranged a meeting to Update UML diagram .  🔰
 - Class Diag ❗Siroos
 - State Diagram  ❗Iyad
 - Create Sequence Diagram ❗Doris
 - Use Case Diagram  ❗Mohammad
-- Arranged a meeting to Update UML diagram .  🔰
+
+
+> WEEK 08 :   23/01/2023 - 27/01/2023
+- Arranged a meeting to discuss the Deliverable 4 - User Stories.  🔰
+- Arranged a meeting to discuss the Deliverable 5 - User Interface Design.  🔰
+- Arranged a meeting to Update User Stories.  🔰
+- UI Design  ❗Iyad
+- Write 1 & 2 ❗Iyad
+- Write User Story 3 ❗Dori
+- Write User Story 4 ❗Siroos
+- Write User Story 5 ❗Mohammad
+
+
+> WEEK 09 :   30/01/2023 - 03/02/2023
+> WEEK 10 :   06/02/2023 - 10/02/2023
+> WEEK 11 :   13/02/2023 - 17/02/2023
+
+
+
+
+
 
