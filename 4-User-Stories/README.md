@@ -41,3 +41,14 @@ The car shipping company opens the container shipping application and navigates 
 
 >  Back of Card: 
 The application uses the inputted information to automatically generate and print the necessary shipping documents, such as bills of lading and packing lists, allowing the company to streamline the shipping process and reduce the risk of errors.
+
+### Story 5
+- As a car shipping company. 
+- I want to be able to view and manage my company's inventory of shipping containers. 
+- So that I can ensure that we have enough containers to meet customer demand.
+
+>  Front of Card: 
+The car shipping company opens the container shipping application and navigates to the inventory management page. They can view a list of all available shipping containers, including the size, condition, and location of each container. They can also add new containers or edit existing container information.
+
+>  Back of Card: 
+The application uses a database to store container information, which can be accessed and managed on the inventory management page. The company can also use this data to track the availability of containers and to manage the logistics of the containers.
