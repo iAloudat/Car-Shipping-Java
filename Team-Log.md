@@ -79,12 +79,12 @@
 
 > WEEK 09 :   30/01/2023 - 03/02/2023
 - Arranged a meeting to discuss the Deliverable 6 - Database Design.  🔰
-- Database Design  (It was worked on by all team members during the meetings)🔰
+- Database Design  (Team Work during the meetings)🔰
 
 > WEEK 10 :   06/02/2023 - 10/02/2023
-- Update The Finale Version of Database Design  (It was worked on by all team members during the meetings)🔰
-- Arranged a meeting to discuss the Deliverable 6 - Implementation using MVC.  🔰
-- Start Work Implementation using MVC  (It was worked on by all team members during the meetings)🔰
+- Update The Finale Version of Database Design  (Team Work during the meetings)🔰
+- Arranged a meeting to discuss the Deliverable 7 - Implementation using MVC.  🔰
+- Start Work Implementation using MVC  (Team Work during the meetings)🔰
 
 
 > WEEK 11 :   13/02/2023 - 17/02/2023
