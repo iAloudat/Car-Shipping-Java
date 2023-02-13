@@ -85,10 +85,17 @@
 - Update The Finale Version of Database Design  (Team Work during the meetings)🔰
 - Arranged a meeting to discuss the Deliverable 7 - Implementation using MVC.  🔰
 - Start Work Implementation using MVC  (Team Work during the meetings)🔰
-
+- Write code For CarInfo.java , Client.java, LoadingReport.java ❗Iyad
+- Write code For ConnectToDB.java ❗Mohammed
+- Write code For Controller.java ❗Dori
+- Write code For View.java (GUI) ❗Siroos
 
 > WEEK 11 :   13/02/2023 - 17/02/2023
-
+- Update Work Implementation using MVC  (Team Work during the meetings)🔰
+- Update code For CarInfo.java , Client.java, LoadingReport.java ❗Iyad
+- Update code For ConnectToDB.java ❗Mohammed
+- Update code For Controller.java ❗Dori
+- Update code For View.java (GUI) ❗Siroos
 
 
 
