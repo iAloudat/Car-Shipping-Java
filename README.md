@@ -16,7 +16,7 @@
 - 👉 4. User Stories [+ Read more ...](4-User-Stories)
 - 👉 5. Prototype UI[+ Read more ...](5-PrototypeUI)
 - 👉 6. Database Design [+ Read more ...](6-Database-Design)
-- 👉 7. MVC  [+ Read more ...](7-MVC)
+- 👉 7. MVC  [+ Read more ...](0-AppSource)
 
 ## Schedule
 | Date | Deliverable | Status
