@@ -1,4 +1,4 @@
-package com.example.systemproject;
+package app.carshipping;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;
@@ -11,9 +11,11 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -21,6 +23,17 @@ import java.util.ArrayList;
 
 
 public class View extends Application {
+
+    // Border Dimension - Scene scene
+
+    int width = 1000;
+    int height = 500;
+
+
+//########################################################################################
+// ################ Insert Code ##########################################################
+// #######################################################################################
+    final  ScrollPane scroll = new ScrollPane(); // create a ScrollPane
     private Client client = new Client();
     LoadingReport loadingReport = new LoadingReport();
     CarInfo car1 = new CarInfo();
@@ -36,6 +49,9 @@ public class View extends Application {
     ArrayList<Client> allClients = new ArrayList<Client>();
     ArrayList<LoadingReport> allLoading = new ArrayList<LoadingReport>();
     ArrayList<CarInfo> allCars = new ArrayList<CarInfo>();
+
+
+
 
     //text files of "insert" page
     TextField clientId_tf = new TextField();
@@ -88,9 +104,16 @@ public class View extends Application {
     Button next = new Button("Next");
     Button submit = new Button("Submit");
     //Buttons of Search page
-    Button clientsBT= new Button("List of Clients");
-    Button loadingBT= new Button("List of Loading Records");
-    Button carsBT= new Button("List of Cars");
+
+
+
+//########################################################################################
+// ################ Delete Code ###########################################################
+// #######################################################################################
+
+    Button clientsBT= new Button("Clients");
+    Button loadingBT= new Button("Records");
+    Button carsBT= new Button("Cars");
     Button back = new Button("Back");
 
     //Text files and Buttons of Delete Page
@@ -100,6 +123,10 @@ public class View extends Application {
     Button deleteClient = new Button("Delete");
     Button deleteLoading = new Button("Delete");
     Button deleteCar = new Button("Delete");
+
+//########################################################################################
+// ################ Edit Code ###########################################################
+// #######################################################################################
 
 
     //Text files and Buttons of Edit Page
@@ -144,44 +171,57 @@ public class View extends Application {
     MenuItem MenuItem_car_price = new MenuItem("car_price");
     MenuItem MenuItem_null3 = new MenuItem("null");
 
-       public void creatMenuItem(){
-           client_menu.getItems().add(MenuItem_client_id);
-           client_menu.getItems().add(MenuItem_client_name);
-           client_menu.getItems().add(MenuItem_company_name);
-           client_menu.getItems().add(MenuItem_tel);
-           client_menu.getItems().add(MenuItem_email);
-           client_menu.getItems().add(MenuItem_null1);
-           loading_menu.getItems().add(MenuItem_bookingNumber);
-           loading_menu.getItems().add(MenuItem_clientId);
-           loading_menu.getItems().add(MenuItem_bookingDate);
-           loading_menu.getItems().add(MenuItem_originCountry);
-           loading_menu.getItems().add(MenuItem_shippingLine);
-           loading_menu.getItems().add(MenuItem_terminal);
-           loading_menu.getItems().add(MenuItem_destinationCountry);
-           loading_menu.getItems().add(MenuItem_containerNumber);
-           loading_menu.getItems().add(MenuItem_sealNumber);
-           loading_menu.getItems().add(MenuItem_containerSize);
-           loading_menu.getItems().add(MenuItem_containerWeight);
-           loading_menu.getItems().add(MenuItem_shipNumber);
-           loading_menu.getItems().add(MenuItem_vesselName);
-           loading_menu.getItems().add(MenuItem_loadingDate);
-           loading_menu.getItems().add(MenuItem_numberOfCars);
-           loading_menu.getItems().add(MenuItem_vin_number1);
-           loading_menu.getItems().add(MenuItem_vin_number2);
-           loading_menu.getItems().add(MenuItem_vin_number3);
-           loading_menu.getItems().add(MenuItem_vin_number4);
-           loading_menu.getItems().add(MenuItem_null2);
-           car_menu.getItems().add(MenuItem_car_information);
-           car_menu.getItems().add(MenuItem_vin_number);
-           car_menu.getItems().add(MenuItem_car_model);
-           car_menu.getItems().add(MenuItem_car_color);
-           car_menu.getItems().add(MenuItem_car_year);
-           car_menu.getItems().add(MenuItem_car_weight);
-           car_menu.getItems().add(MenuItem_car_price);
-           car_menu.getItems().add(MenuItem_null3);
-       }
 
-       // these text fields save desired attributes to edit
+
+//########################################################################################
+// ################ Menu Code ###########################################################
+// #######################################################################################
+
+
+    public void creatMenuItem(){
+        client_menu.getItems().add(MenuItem_client_id);
+        client_menu.getItems().add(MenuItem_client_name);
+        client_menu.getItems().add(MenuItem_company_name);
+        client_menu.getItems().add(MenuItem_tel);
+        client_menu.getItems().add(MenuItem_email);
+        client_menu.getItems().add(MenuItem_null1);
+        loading_menu.getItems().add(MenuItem_bookingNumber);
+        loading_menu.getItems().add(MenuItem_clientId);
+        loading_menu.getItems().add(MenuItem_bookingDate);
+        loading_menu.getItems().add(MenuItem_originCountry);
+        loading_menu.getItems().add(MenuItem_shippingLine);
+        loading_menu.getItems().add(MenuItem_terminal);
+        loading_menu.getItems().add(MenuItem_destinationCountry);
+        loading_menu.getItems().add(MenuItem_containerNumber);
+        loading_menu.getItems().add(MenuItem_sealNumber);
+        loading_menu.getItems().add(MenuItem_containerSize);
+        loading_menu.getItems().add(MenuItem_containerWeight);
+        loading_menu.getItems().add(MenuItem_shipNumber);
+        loading_menu.getItems().add(MenuItem_vesselName);
+        loading_menu.getItems().add(MenuItem_loadingDate);
+        loading_menu.getItems().add(MenuItem_numberOfCars);
+        loading_menu.getItems().add(MenuItem_vin_number1);
+        loading_menu.getItems().add(MenuItem_vin_number2);
+        loading_menu.getItems().add(MenuItem_vin_number3);
+        loading_menu.getItems().add(MenuItem_vin_number4);
+        loading_menu.getItems().add(MenuItem_null2);
+        car_menu.getItems().add(MenuItem_car_information);
+        car_menu.getItems().add(MenuItem_vin_number);
+        car_menu.getItems().add(MenuItem_car_model);
+        car_menu.getItems().add(MenuItem_car_color);
+        car_menu.getItems().add(MenuItem_car_year);
+        car_menu.getItems().add(MenuItem_car_weight);
+        car_menu.getItems().add(MenuItem_car_price);
+        car_menu.getItems().add(MenuItem_null3);
+    }
+
+
+//########################################################################################
+// ################ Save Code ###########################################################
+// #######################################################################################
+
+
+    // these text fields save desired attributes to edit
     TextField client_set_tf = new TextField();
     TextField loading_set_tf = new TextField();
     TextField car_set_tf = new TextField();
@@ -363,74 +403,131 @@ public class View extends Application {
     }
 
 
+//########################################################################################
+
+// #######################################################################################
+
     @Override
     public void start(Stage stage) throws IOException {
 
         //Buttons of main page
-        Button insertBT= new Button("Insert a new record");
+        Button insertBT= new Button("New Record");
+        insertBT.setMinWidth(100);
+
         Button searchBT= new Button("Search");
+        searchBT.setMinWidth(100);
+
         Button deleteBT= new Button("Delete");
+        deleteBT.setMinWidth(100);
+
         Button editBT= new Button("Edit");
+        editBT.setMinWidth(100);
 
         //images of menu in right side of main page
-        Image img1 = new Image("https://cdn3.iconfinder.com/data/icons/software-office-tools/33/create-512.png");
+
+        // New Report icon
+        Image img1 = new Image("file:images/new_report.png");
         ImageView view1 = new ImageView(img1);
         view1.setFitWidth(100); view1.setFitHeight(100);
         view1.setPreserveRatio(true);
-        Image img4 = new Image("https://static.vecteezy.com/system/resources/previews/004/856/862/original/search-illustration-on-a-transparent-background-premium-quality-symbols-line-flat-color-icon-for-concept-and-graphic-design-vector.jpg");
+        // Search icon
+        Image img4 = new Image("file:images/search.png");
         ImageView view4 = new ImageView(img4);
         view4.setFitWidth(100); view4.setFitHeight(100);
         view4.setPreserveRatio(true);
-        Image img6 = new Image("https://cdn-icons-png.flaticon.com/512/3405/3405244.png");
+        // delete icon
+        Image img6 = new Image("file:images/delete_report.png");
         ImageView view6 = new ImageView(img6);
         view6.setFitWidth(100); view6.setFitHeight(100);
         view6.setPreserveRatio(true);
-        Image img8 = new Image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpAyw7TK8OpqoWdMpCRbRa-X2xmWAsx2AIEw&usqp=CAU");
+
+        // Edit icon
+        Image img8 = new Image("file:images/edit_report.png");
         ImageView view8 = new ImageView(img8);
         view8.setFitWidth(100); view8.setFitHeight(100);
         view8.setPreserveRatio(true);
 
-        //GridPane for menu in right side of main page
-        GridPane gPane = new GridPane();
-        gPane.setPadding(new Insets(10,10,10,10));
-        gPane.setHgap(10);
-        gPane.setVgap(10);
-        gPane.setAlignment(Pos.CENTER_RIGHT);
 
-        gPane.add(view1,0,0);
-        gPane.add(view4,3,0);
-        gPane.add(view6,0,2);
-        gPane.add(view8,3,2);
 
-        searchBT.setPrefWidth(100);
-        gPane.add(insertBT,0,1);
-        gPane.add(searchBT,3,1);
-        gPane.add(deleteBT,0,3);
-        gPane.add(editBT,3,3);
+        Text title = new Text("CAR SHIPPING CONTAINER SYSTEM");
+        title.setFont(Font.font("Arial", FontWeight.BOLD, 24));
+        title.setFill(Color.BLACK);
+        title.setX(10);
+        title.setY(30);
 
-        //Image of main Page in left side
-        Image imgMain = new Image("https://media.istockphoto.com/id/1263987339/photo/logistics-and-transportation-of-international-container-cargo-ship-at-port.jpg?s=612x612&w=0&k=20&c=QIxBjMytE_Be5PTVLzY1SFoQr4EA108pz5T88qNuqPQ=");
-        ImageView viewMain = new ImageView(imgMain);
-        viewMain.setFitWidth(300); viewMain.setFitHeight(200);
-        viewMain.setPreserveRatio(true);
 
-        // GridPane for main page(it includes main image in left side and menu in right side)
-        GridPane pane = new GridPane();
-        pane.setPadding(new Insets(10,10,10,10));
-        pane.setHgap(40);
-        pane.setVgap(20);
-        pane.add(viewMain,0,0);
-        pane.add(gPane,1,0);
 
-        //adding to scene and stage
-        Scene scene = new Scene(pane,600, 350);
+        // *******  Top Header - GridPane for title Main page
+
+
+        GridPane topHeaderPane = new GridPane();
+        topHeaderPane.setPadding(new Insets(10,2,10,2));
+        topHeaderPane.setHgap(10);
+        topHeaderPane.setVgap(10);
+        topHeaderPane.setAlignment(Pos.CENTER);
+        topHeaderPane.setStyle("-fx-background-color: #FFCC33;");
+
+        topHeaderPane.add(title,0,0);
+
+
+        // *******  Left Side - Main Image
+        Image imgMain = new Image("file:images/main.png");
+        ImageView leftSideImage = new ImageView(imgMain);
+        leftSideImage.setFitWidth(width*0.4); leftSideImage.setFitHeight(width*0.4);
+        leftSideImage.setPreserveRatio(true);
+
+
+
+        // *******  Right Side - GridPane for menu in right side of main page
+        GridPane rightSidePane = new GridPane();
+        rightSidePane.setMaxWidth(width*0.5); rightSidePane.setMinHeight(height*0.8);
+        rightSidePane.setPadding(new Insets(10,10,10,10));
+        rightSidePane.setHgap(15);
+        rightSidePane.setVgap(15);
+        rightSidePane.setAlignment(Pos.CENTER_LEFT);
+
+        rightSidePane.add(view1,0,0);
+        rightSidePane.add(view4,3,0);
+        rightSidePane.add(view6,0,2);
+        rightSidePane.add(view8,3,2);
+
+
+        rightSidePane.add(insertBT,0,1);
+        rightSidePane.add(searchBT,3,1);
+        rightSidePane.add(deleteBT,0,3);
+        rightSidePane.add(editBT,3,3);
+
+
+        // %%%%%%%%% GridPane Container -  main page(it includes main image in left side and menu in right side)
+        GridPane paneContainer = new GridPane();
+        paneContainer.setPadding(new Insets(height*0.1,width*0.1,height*0.1,width*0.1));
+        paneContainer.setHgap(20);
+        paneContainer.setVgap(20);
+
+
+        paneContainer.add(topHeaderPane,0,0,2,1);
+        paneContainer.add(leftSideImage,0,1);
+        paneContainer.add(rightSidePane,1,1);
+
+
+
+        //Adding to scene and stage Board -
+
+        Color pageBackground = Color.web("#CCCCCC"); // create a new color object from a web color string
+
+        BackgroundFill backgroundFill = new BackgroundFill(pageBackground, null, null);
+        Background background = new Background(backgroundFill);
+        paneContainer.setBackground(background);
+        Scene scene = new Scene(paneContainer, width, height);
         stage.setTitle("Shipping Express");
-        stage.getIcons().add(new Image("https://cdn-icons-png.flaticon.com/512/3089/3089627.png"));
+        stage.getIcons().add(new Image("file:images/container.png"));
         stage.setScene(scene);
         stage.show();
 
 
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//########################################################################################
+// ################ Insert Page ##########################################################
+// #######################################################################################
 
         //selecting insertBT
         insertBT.setOnAction(e->{
@@ -438,8 +535,54 @@ public class View extends Application {
             Stage stageInsert = new Stage();
             GridPane paneBig = new GridPane();
             GridPane paneInsert = new GridPane();
+            GridPane topInsertPane = new GridPane();
 
-            //adding "insert" elements to pane
+
+            // *******   Top Insert Panee
+
+            topInsertPane.setPadding(new Insets(10,2,10,2));
+            topInsertPane.setHgap(10);
+            topInsertPane.setVgap(10);
+            topInsertPane.setAlignment(Pos.CENTER);
+            topInsertPane.setStyle("-fx-background-color: #FFCC33;");
+
+            // *******  Pane Insert Body
+
+            paneInsert.setPadding(new Insets(30,30,30,30));
+            paneInsert.setHgap(10);
+            paneInsert.setVgap(10);
+            paneInsert.setAlignment(Pos.CENTER);
+
+            // *******  Pane Insert Big Container
+            paneBig.setPadding(new Insets(30,30,30,30));
+            paneBig.setAlignment(Pos.CENTER);
+            paneBig.add(topInsertPane, 0, 0);
+            paneBig.add(scroll, 0, 1); // add ScrollPane to paneBig instead of paneInsert
+            paneBig.add(submit, 0, 2);
+
+            // *******  Scroll
+
+            scroll.setContent(paneInsert); // set paneInsert as the content of the ScrollPane
+            scroll.setFitToWidth(true); // make the ScrollPane fit to the width of the paneInsert
+            scroll.setFitToHeight(true); // make the ScrollPane fit to the height of the paneInsert
+            paneBig.setStyle("-fx-border-width: 0;"); // remove border
+
+            // *******  scene Insert
+
+
+            Scene sceneInsert = new Scene(paneBig, width, height);
+            stageInsert.setTitle("Insert a new record");
+            stageInsert.getIcons().add(new Image("file:images/container.png"));
+            stageInsert.setScene(sceneInsert);
+            stageInsert.show();
+
+            // *******  Insert Title
+            Text insertTitle = new Text("Insert New Loading Report");
+            insertTitle.setFont(Font.font("Arial", FontWeight.BOLD, 24));
+            insertTitle.setFill(Color.BLACK);
+            topInsertPane.add(insertTitle,0,0);
+
+            //adding "insert" elements to paneContainer
             Label labelclientId = new Label("client Id");
             Label labelclient_name = new Label("Client Name");
             Label labelcompany_name = new Label("Company Name");
@@ -530,147 +673,142 @@ public class View extends Application {
             paneInsert.add(numberOfCars_tf ,3,6);
             paneInsert.add(next ,4,6);
             next.setOnAction(j->{
-            if(Integer.parseInt(numberOfCars_tf.getText())>=1 && Integer.parseInt(numberOfCars_tf.getText())<=4) {
-                paneInsert.add(labelcar_information1 , 0, 7);
-                paneInsert.add(car_information1_tf, 1, 7);
-                paneInsert.add(labelvin_number1 , 2, 7);
-                paneInsert.add(vin_number1_tf, 3, 7);
-                paneInsert.add(labelcar_model1 , 4, 7);
-                paneInsert.add(car_model1_tf, 5, 7);
-                paneInsert.add(labelcar_color1 , 0, 8);
-                paneInsert.add(car_color1_tf , 1, 8);
-                paneInsert.add(labelcar_year1, 2, 8);
-                paneInsert.add(car_year1_tf, 3, 8);
-                paneInsert.add(labelcar_weight1, 4, 8);
-                paneInsert.add(car_weight1_tf, 5, 8);
-                paneInsert.add(labelcar_price1, 0, 9);
-                paneInsert.add(car_price1_tf, 1, 9);
-            }
-            if(Integer.parseInt(numberOfCars_tf.getText())>=2 && Integer.parseInt(numberOfCars_tf.getText())<=4) {
-                paneInsert.add(labelcar_information2 , 0, 10);
-                paneInsert.add(car_information2_tf, 1, 10);
-                paneInsert.add(labelvin_number2 , 2, 10);
-                paneInsert.add(vin_number2_tf, 3, 10);
-                paneInsert.add(labelcar_model2 , 4, 10);
-                paneInsert.add(car_model2_tf, 5, 10);
-                paneInsert.add(labelcar_color2 , 0, 11);
-                paneInsert.add(car_color2_tf , 1, 11);
-                paneInsert.add(labelcar_year2, 2, 11);
-                paneInsert.add(car_year2_tf, 3, 11);
-                paneInsert.add(labelcar_weight2, 4, 11);
-                paneInsert.add(car_weight2_tf, 5, 11);
-                paneInsert.add(labelcar_price2, 0, 12);
-                paneInsert.add(car_price2_tf, 1, 12);
-            }
-            if(Integer.parseInt(numberOfCars_tf.getText())>=3 && Integer.parseInt(numberOfCars_tf.getText())<=4) {
-                paneInsert.add(labelcar_information3 , 0, 13);
-                paneInsert.add(car_information3_tf, 1, 13);
-                paneInsert.add(labelvin_number3 , 2, 13);
-                paneInsert.add(vin_number3_tf, 3, 13);
-                paneInsert.add(labelcar_model3 , 4, 13);
-                paneInsert.add(car_model3_tf, 5, 13);
-                paneInsert.add(labelcar_color3 , 0, 14);
-                paneInsert.add(car_color3_tf , 1, 14);
-                paneInsert.add(labelcar_year3, 2, 14);
-                paneInsert.add(car_year3_tf, 3, 14);
-                paneInsert.add(labelcar_weight3, 4, 14);
-                paneInsert.add(car_weight3_tf, 5, 14);
-                paneInsert.add(labelcar_price3, 0, 15);
-                paneInsert.add(car_price3_tf, 1, 15);
-            }
-            if(Integer.parseInt(numberOfCars_tf.getText())>=4 && Integer.parseInt(numberOfCars_tf.getText())<=4) {
-                paneInsert.add(labelcar_information4 , 0, 16);
-                paneInsert.add(car_information4_tf, 1, 16);
-                paneInsert.add(labelvin_number4 , 2, 16);
-                paneInsert.add(vin_number4_tf, 3, 16);
-                paneInsert.add(labelcar_model4 , 4, 16);
-                paneInsert.add(car_model4_tf, 5, 16);
-                paneInsert.add(labelcar_color4 , 0, 17);
-                paneInsert.add(car_color4_tf , 1, 17);
-                paneInsert.add(labelcar_year4, 2, 17);
-                paneInsert.add(car_year4_tf, 3, 17);
-                paneInsert.add(labelcar_weight4, 4, 17);
-                paneInsert.add(car_weight4_tf, 5, 17);
-                paneInsert.add(labelcar_price4, 0, 18);
-                paneInsert.add(car_price4_tf, 1, 18);
-            }
+                if(Integer.parseInt(numberOfCars_tf.getText())>=1 && Integer.parseInt(numberOfCars_tf.getText())<=4) {
+                    paneInsert.add(labelcar_information1 , 0, 7);
+                    paneInsert.add(car_information1_tf, 1, 7);
+                    paneInsert.add(labelvin_number1 , 2, 7);
+                    paneInsert.add(vin_number1_tf, 3, 7);
+                    paneInsert.add(labelcar_model1 , 4, 7);
+                    paneInsert.add(car_model1_tf, 5, 7);
+                    paneInsert.add(labelcar_color1 , 0, 8);
+                    paneInsert.add(car_color1_tf , 1, 8);
+                    paneInsert.add(labelcar_year1, 2, 8);
+                    paneInsert.add(car_year1_tf, 3, 8);
+                    paneInsert.add(labelcar_weight1, 4, 8);
+                    paneInsert.add(car_weight1_tf, 5, 8);
+                    paneInsert.add(labelcar_price1, 0, 9);
+                    paneInsert.add(car_price1_tf, 1, 9);
+                }
+                if(Integer.parseInt(numberOfCars_tf.getText())>=2 && Integer.parseInt(numberOfCars_tf.getText())<=4) {
+                    paneInsert.add(labelcar_information2 , 0, 10);
+                    paneInsert.add(car_information2_tf, 1, 10);
+                    paneInsert.add(labelvin_number2 , 2, 10);
+                    paneInsert.add(vin_number2_tf, 3, 10);
+                    paneInsert.add(labelcar_model2 , 4, 10);
+                    paneInsert.add(car_model2_tf, 5, 10);
+                    paneInsert.add(labelcar_color2 , 0, 11);
+                    paneInsert.add(car_color2_tf , 1, 11);
+                    paneInsert.add(labelcar_year2, 2, 11);
+                    paneInsert.add(car_year2_tf, 3, 11);
+                    paneInsert.add(labelcar_weight2, 4, 11);
+                    paneInsert.add(car_weight2_tf, 5, 11);
+                    paneInsert.add(labelcar_price2, 0, 12);
+                    paneInsert.add(car_price2_tf, 1, 12);
+                }
+                if(Integer.parseInt(numberOfCars_tf.getText())>=3 && Integer.parseInt(numberOfCars_tf.getText())<=4) {
+                    paneInsert.add(labelcar_information3 , 0, 13);
+                    paneInsert.add(car_information3_tf, 1, 13);
+                    paneInsert.add(labelvin_number3 , 2, 13);
+                    paneInsert.add(vin_number3_tf, 3, 13);
+                    paneInsert.add(labelcar_model3 , 4, 13);
+                    paneInsert.add(car_model3_tf, 5, 13);
+                    paneInsert.add(labelcar_color3 , 0, 14);
+                    paneInsert.add(car_color3_tf , 1, 14);
+                    paneInsert.add(labelcar_year3, 2, 14);
+                    paneInsert.add(car_year3_tf, 3, 14);
+                    paneInsert.add(labelcar_weight3, 4, 14);
+                    paneInsert.add(car_weight3_tf, 5, 14);
+                    paneInsert.add(labelcar_price3, 0, 15);
+                    paneInsert.add(car_price3_tf, 1, 15);
+                }
+                if(Integer.parseInt(numberOfCars_tf.getText())>=4 && Integer.parseInt(numberOfCars_tf.getText())<=4) {
+                    paneInsert.add(labelcar_information4 , 0, 16);
+                    paneInsert.add(car_information4_tf, 1, 16);
+                    paneInsert.add(labelvin_number4 , 2, 16);
+                    paneInsert.add(vin_number4_tf, 3, 16);
+                    paneInsert.add(labelcar_model4 , 4, 16);
+                    paneInsert.add(car_model4_tf, 5, 16);
+                    paneInsert.add(labelcar_color4 , 0, 17);
+                    paneInsert.add(car_color4_tf , 1, 17);
+                    paneInsert.add(labelcar_year4, 2, 17);
+                    paneInsert.add(car_year4_tf, 3, 17);
+                    paneInsert.add(labelcar_weight4, 4, 17);
+                    paneInsert.add(car_weight4_tf, 5, 17);
+                    paneInsert.add(labelcar_price4, 0, 18);
+                    paneInsert.add(car_price4_tf, 1, 18);
+                }
             });
 
-            paneInsert.setPadding(new Insets(10,10,10,10));
-            paneInsert.setHgap(10);
-            paneInsert.setVgap(10);
-            paneInsert.setAlignment(Pos.CENTER);
-            paneBig.setAlignment(Pos.CENTER);
-            paneBig.add(paneInsert,0,0);
-            paneBig.add(submit,0,1);
 
-            Scene sceneInsert = new Scene(paneBig,1000, 500);
-            stageInsert.setTitle("Insert a new record");
-            stageInsert.getIcons().add(new Image("https://cdn-icons-png.flaticon.com/512/3089/3089627.png"));
-            stageInsert.setScene(sceneInsert);
-            stageInsert.show();
         });
 
 
         //Action of Submit Button is in Controller Class//
 
+//########################################################################################
+// ################ Search Page ###########################################################
+// #######################################################################################
 
-//////////////////////////////////////////////////////////////////////////////////////////////////
+
         //selecting searchBT
         searchBT.setOnAction(e->{
-            //cleaning the main pane
-            gPane.getChildren().clear();
-            Image img2 = new Image("https://png.pngtree.com/png-vector/20220518/ourlarge/pngtree-add-customers-icon-color-flat-png-image_4674922.png");
+            //cleaning the main paneContainer
+            rightSidePane.getChildren().clear();
+
+            // Clients icons
+            Image img2 = new Image("file:images/clients.png");
             ImageView view2 = new ImageView(img2);
             view2.setFitWidth(100); view2.setFitHeight(100);
             view2.setPreserveRatio(true);
-            Image img3 = new Image("https://static.vecteezy.com/system/resources/previews/008/276/844/non_2x/intermodal-container-color-icon-shipping-container-on-crane-hook-freight-loading-isolated-illustration-vector.jpg");
+
+            // Reports icons
+            Image img3 = new Image("file:images/reports.png");
             ImageView view3 = new ImageView(img3);
             view3.setFitWidth(100); view3.setFitHeight(100);
             view3.setPreserveRatio(true);
-            Image img5 = new Image("data:image/png;base64,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");
+            Image img5 = new Image("file:images/cars.png");
             ImageView view5 = new ImageView(img5);
             view5.setFitWidth(100); view5.setFitHeight(100);
             view5.setPreserveRatio(true);
 
-            gPane.setPadding(new Insets(10,10,10,10));
-            gPane.setHgap(10);
-            gPane.setVgap(10);
-            gPane.setAlignment(Pos.CENTER_RIGHT);
+            rightSidePane.setPadding(new Insets(10,10,10,10));
+            rightSidePane.setHgap(10);
+            rightSidePane.setVgap(10);
+            rightSidePane.setAlignment(Pos.CENTER_RIGHT);
 
-            gPane.add(view2,0,0);
-            gPane.add(view3,1,0);
-            gPane.add(view5,2,0);
+            rightSidePane.add(view2,0,0);
+            rightSidePane.add(view3,1,0);
+            rightSidePane.add(view5,2,0);
 
             clientsBT.setPrefWidth(100);
             loadingBT.setPrefWidth(100);
             carsBT.setPrefWidth(100);
             back.setPrefWidth(100);
 
-            gPane.add(clientsBT,0,1);
-            gPane.add(loadingBT,1,1);
-            gPane.add(carsBT,2,1);
-            gPane.add(back,0,7);
+            rightSidePane.add(clientsBT,0,1);
+            rightSidePane.add(loadingBT,1,1);
+            rightSidePane.add(carsBT,2,1);
+            rightSidePane.add(back,0,7);
 
         });
 
         //Action of back button
         back.setOnAction(e->{
             //clear the main page
-            gPane.getChildren().clear();
+            rightSidePane.getChildren().clear();
             //adding main page elements
-            gPane.setAlignment(Pos.CENTER_RIGHT);
+            rightSidePane.setAlignment(Pos.CENTER_RIGHT);
 
-            gPane.add(view1,0,0);
-            gPane.add(view4,3,0);
-            gPane.add(view6,0,2);
-            gPane.add(view8,3,2);
+            rightSidePane.add(view1,0,0);
+            rightSidePane.add(view4,3,0);
+            rightSidePane.add(view6,0,2);
+            rightSidePane.add(view8,3,2);
 
             searchBT.setPrefWidth(100);
-            gPane.add(insertBT,0,1);
-            gPane.add(searchBT,3,1);
-            gPane.add(deleteBT,0,3);
-            gPane.add(editBT,3,3);
+            rightSidePane.add(insertBT,0,1);
+            rightSidePane.add(searchBT,3,1);
+            rightSidePane.add(deleteBT,0,3);
+            rightSidePane.add(editBT,3,3);
 
         });
 
@@ -683,50 +821,53 @@ public class View extends Application {
         //Action of back button
         back.setOnAction(e->{
             //clear the main page
-            gPane.getChildren().clear();
+            rightSidePane.getChildren().clear();
             //adding main page elements
-            gPane.setAlignment(Pos.CENTER_RIGHT);
+            rightSidePane.setAlignment(Pos.CENTER_RIGHT);
 
-            gPane.add(view1,0,0);
-            gPane.add(view4,3,0);
-            gPane.add(view6,0,2);
-            gPane.add(view8,3,2);
+            rightSidePane.add(view1,0,0);
+            rightSidePane.add(view4,3,0);
+            rightSidePane.add(view6,0,2);
+            rightSidePane.add(view8,3,2);
 
             searchBT.setPrefWidth(100);
-            gPane.add(insertBT,0,1);
-            gPane.add(searchBT,3,1);
-            gPane.add(deleteBT,0,3);
-            gPane.add(editBT,3,3);
+            rightSidePane.add(insertBT,0,1);
+            rightSidePane.add(searchBT,3,1);
+            rightSidePane.add(deleteBT,0,3);
+            rightSidePane.add(editBT,3,3);
 
         });
 
 
-        //////////////////////////////////////////////////////////////////////////////////////////////////
-        //selecting deleteBT
+//########################################################################################
+// ################ Delete Page ###########################################################
+// #######################################################################################
+
+        // selecting deleteBT
         deleteBT.setOnAction(e->{
-            //cleaning the main pane
-            gPane.getChildren().clear();
+            //cleaning the main paneContainer
+            rightSidePane.getChildren().clear();
 
 
-            gPane.setPadding(new Insets(10,10,10,10));
-            gPane.setHgap(10);
-            gPane.setVgap(10);
-            gPane.setAlignment(Pos.CENTER_RIGHT);
+            rightSidePane.setPadding(new Insets(10,10,10,10));
+            rightSidePane.setHgap(10);
+            rightSidePane.setVgap(10);
+            rightSidePane.setAlignment(Pos.CENTER_RIGHT);
 
-            Label label_client = new Label("Please enter Client ID");
-            Label label_loading = new Label("Please enter Booking Number");
-           Label label_car = new Label("Please enter Car VIN Number");
+            Label label_client = new Label("Client ID");
+            Label label_loading = new Label("Booking Number");
+            Label label_car = new Label("Car VIN Number");
 
-            gPane.add(label_client,0,0);
-            gPane.add(client_delete_tf,1,0);
-            gPane.add(deleteClient,2,0);
-            gPane.add(label_loading,0,1);
-            gPane.add(loading_delete_tf,1,1);
-            gPane.add(deleteLoading,2,1);
-            gPane.add(label_car,0,2);
-            gPane.add(car_delete_tf,1,2);
-            gPane.add(deleteCar,2,2);
-            gPane.add(back,0,3);
+            rightSidePane.add(label_client,0,0);
+            rightSidePane.add(client_delete_tf,1,0);
+            rightSidePane.add(deleteClient,2,0);
+            rightSidePane.add(label_loading,0,1);
+            rightSidePane.add(loading_delete_tf,1,1);
+            rightSidePane.add(deleteLoading,2,1);
+            rightSidePane.add(label_car,0,2);
+            rightSidePane.add(car_delete_tf,1,2);
+            rightSidePane.add(deleteCar,2,2);
+            rightSidePane.add(back,0,3);
 
 
         });
@@ -734,69 +875,73 @@ public class View extends Application {
         //Action of back button
         back.setOnAction(e->{
             //clear the main page
-            gPane.getChildren().clear();
+            rightSidePane.getChildren().clear();
             //adding main page elements
-            gPane.setAlignment(Pos.CENTER_RIGHT);
+            rightSidePane.setAlignment(Pos.CENTER_RIGHT);
 
-            gPane.add(view1,0,0);
-            gPane.add(view4,3,0);
-            gPane.add(view6,0,2);
-            gPane.add(view8,3,2);
+            rightSidePane.add(view1,0,0);
+            rightSidePane.add(view4,3,0);
+            rightSidePane.add(view6,0,2);
+            rightSidePane.add(view8,3,2);
 
             searchBT.setPrefWidth(100);
-            gPane.add(insertBT,0,1);
-            gPane.add(searchBT,3,1);
-            gPane.add(deleteBT,0,3);
-            gPane.add(editBT,3,3);
+            rightSidePane.add(insertBT,0,1);
+            rightSidePane.add(searchBT,3,1);
+            rightSidePane.add(deleteBT,0,3);
+            rightSidePane.add(editBT,3,3);
         });
 
-            //Actions of Delete Buttons are in delete_car and delete_client and delete_loading methods
+        //Actions of Delete Buttons are in delete_car and delete_client and delete_loading methods
 
 
-        //////////////////////////////////////////////////////////////////////////////////////////////////
+//########################################################################################
+// ################ Edit Page ###########################################################
+// #######################################################################################
+
+
         //selecting editBT
         editBT.setOnAction(e->{
-            //cleaning the main pane
-            gPane.getChildren().clear();
+            //cleaning the main paneContainer
+            rightSidePane.getChildren().clear();
 
 
-            gPane.setPadding(new Insets(10,10,10,10));
-            gPane.setHgap(10);
-            gPane.setVgap(10);
-            gPane.setAlignment(Pos.CENTER_RIGHT);
+            rightSidePane.setPadding(new Insets(10,10,10,10));
+            rightSidePane.setHgap(10);
+            rightSidePane.setVgap(10);
+            rightSidePane.setAlignment(Pos.CENTER_RIGHT);
 
-            Label label_client = new Label("Please enter Client ID");
-            Label label_loading = new Label("Please enter Booking Number");
-            Label label_car = new Label("Please enter Car VIN Number");
+            Label label_client = new Label("Client ID");
+            Label label_loading = new Label("Booking Number");
+            Label label_car = new Label("Car VIN Number");
 
-            Label label_client_new = new Label("Please enter new value:");
-            Label label_loading_new = new Label("Please enter new value:");
-            Label label_car_new = new Label("Please enter new value:");
+            Label label_client_new = new Label("Update Client:");
+            Label label_loading_new = new Label("Update Report:");
+            Label label_car_new = new Label("Update Car Data:");
 
-            gPane.add(label_client,0,0);
-            gPane.add(client_edit_tf,0,1);
-            gPane.add(client_menu,0,2);
-            gPane.add(client_set_tf,0,3);
-            gPane.add(label_client_new,0,4);
-            gPane.add(client_field_tf,0,5);
-            gPane.add(editClient,0,6);
-            gPane.add(back,0,7);
+            rightSidePane.add(label_client,0,0);
+            rightSidePane.add(client_edit_tf,0,1);
+            rightSidePane.add(client_menu,0,2);
+            rightSidePane.add(client_set_tf,0,3);
+            rightSidePane.add(label_client_new,0,4);
+            rightSidePane.add(client_field_tf,0,5);
+            rightSidePane.add(editClient,0,6);
+            rightSidePane.add(back,0,7);
 
-            gPane.add(label_loading,1,0);
-            gPane.add(loading_edit_tf,1,1);
-            gPane.add(loading_menu,1,2);
-            gPane.add(loading_set_tf,1,3);
-            gPane.add(label_loading_new,1,4);
-            gPane.add(loading_field_tf,1,5);
-            gPane.add(editLoading,1,6);
+            rightSidePane.add(label_loading,1,0);
+            rightSidePane.add(loading_edit_tf,1,1);
+            rightSidePane.add(loading_menu,1,2);
+            rightSidePane.add(loading_set_tf,1,3);
+            rightSidePane.add(label_loading_new,1,4);
+            rightSidePane.add(loading_field_tf,1,5);
+            rightSidePane.add(editLoading,1,6);
 
-            gPane.add(label_car,2,0);
-            gPane.add(car_edit_tf,2,1);
-            gPane.add(car_menu,2,2);
-            gPane.add(car_set_tf,2,3);
-            gPane.add(label_car_new,2,4);
-            gPane.add(car_field_tf,2,5);
-            gPane.add(editCar,2,6);
+            rightSidePane.add(label_car,2,0);
+            rightSidePane.add(car_edit_tf,2,1);
+            rightSidePane.add(car_menu,2,2);
+            rightSidePane.add(car_set_tf,2,3);
+            rightSidePane.add(label_car_new,2,4);
+            rightSidePane.add(car_field_tf,2,5);
+            rightSidePane.add(editCar,2,6);
 
 
         });
@@ -804,26 +949,30 @@ public class View extends Application {
         //Action of back button
         back.setOnAction(e->{
             //clear the main page
-            gPane.getChildren().clear();
+            rightSidePane.getChildren().clear();
             //adding main page elements
-            gPane.setAlignment(Pos.CENTER_RIGHT);
+            rightSidePane.setAlignment(Pos.CENTER_RIGHT);
 
-            gPane.add(view1,0,0);
-            gPane.add(view4,3,0);
-            gPane.add(view6,0,2);
-            gPane.add(view8,3,2);
+            rightSidePane.add(view1,0,0);
+            rightSidePane.add(view4,3,0);
+            rightSidePane.add(view6,0,2);
+            rightSidePane.add(view8,3,2);
 
             searchBT.setPrefWidth(100);
-            gPane.add(insertBT,0,1);
-            gPane.add(searchBT,3,1);
-            gPane.add(deleteBT,0,3);
-            gPane.add(editBT,3,3);
+            rightSidePane.add(insertBT,0,1);
+            rightSidePane.add(searchBT,3,1);
+            rightSidePane.add(deleteBT,0,3);
+            rightSidePane.add(editBT,3,3);
         });
 
         // actions of Client, Loading and Car MenuButtons are in set_attribute_edit method in top
 
         // actions of Edit buttons are in controller
     }
+
+//########################################################################################
+// ################ Search Client Table ##################################################
+// #######################################################################################
 
 
     //creating a table for clients and show list of clients in table
@@ -906,11 +1055,16 @@ public class View extends Application {
         clientPane.setTop(filterField);
         clientPane.setCenter(root);
 
-        Scene sceneClients = new Scene(clientPane, 600, 400);
+        Scene sceneClients = new Scene(clientPane, width, height);
         stageClients.setTitle("Clients");
         stageClients.setScene(sceneClients);
         stageClients.show();
     }
+
+//########################################################################################
+// ################ Search Loading Report Table ##########################################
+// #######################################################################################
+
 
     //creating a table for loadings and show list of loadings in table
     public void create_table_loading(){
@@ -1076,11 +1230,19 @@ public class View extends Application {
         loadingPane.setTop(filterField);
         loadingPane.setCenter(root);
 
-        Scene sceneClients = new Scene(loadingPane, 600, 400);
+        Scene sceneClients = new Scene(loadingPane, width, height);
         stageLoading.setTitle("Loading Report");
         stageLoading.setScene(sceneClients);
         stageLoading.show();
     }
+
+
+//########################################################################################
+// ################ Search car Table #####################################################
+// #######################################################################################
+
+
+
 
     //creating a table for cars and show list of cars in table
     public void create_table_car(){
@@ -1123,7 +1285,7 @@ public class View extends Application {
         ObservableList<CarInfo> data = FXCollections.observableArrayList(allCars);
         table.setItems(data);
 
-        // Create text field for filtering
+// Create text field for filtering
         FilteredList<CarInfo> filteredData = new FilteredList<>(data);
         table.setItems(filteredData);
 
@@ -1179,7 +1341,7 @@ public class View extends Application {
         carPane.setTop(filterField);
         carPane.setCenter(root);
 
-        Scene sceneClients = new Scene(carPane, 600, 400);
+        Scene sceneClients = new Scene(carPane, width, height);
         stageCars.setTitle("Cars Information");
         stageCars.setScene(sceneClients);
         stageCars.show();
@@ -1339,4 +1501,3 @@ public class View extends Application {
 
 
 }
-
