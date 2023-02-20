@@ -18,6 +18,9 @@
 - 👉 6. Database Design [+ Read more ...](6-Database-Design)
 - 👉 7. MVC  [+ Read more ...](0-AppSource)
 
+![System UI](5-PrototypeUI/images/SystemUI-06.png)
+
+
 ## Schedule
 | Date | Deliverable | Status
 |---|---|---|
