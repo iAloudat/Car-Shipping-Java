@@ -1,4 +1,4 @@
-package app.carshipping;
+package com.example.systemproject;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;
