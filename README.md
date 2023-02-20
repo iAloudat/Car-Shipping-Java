@@ -26,6 +26,6 @@
 | Mon, Jan 23 | 3. Use cases, UML diagrams to model the existing system | Done |
 | Wed, Feb 01 | 4. User stories to express the requirements to solve the business problem Peer evaluations | Done |
 | Wed, Feb 01 | 5. Prototype user interface and client comments | Done |
-| Wed, Feb 08 | 6. Database design | pending |
-| Thu, Feb 16 | 7. Implementation using MVC, client comments | pending |
-| Fri, Feb 24 | 8. Finale | pending |
+| Wed, Feb 08 | 6. Database design | Done |
+| Thu, Feb 16 | 7. Implementation using MVC, client comments | Done |
+| Fri, Feb 24 | 8. Finale | Done |
