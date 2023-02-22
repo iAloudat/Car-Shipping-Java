@@ -1,6 +1,7 @@
 package com.example.systemproject;
 
 public class CarInfo {
+    /** Variables to store car information */
     private String car_information;
     private String vin_number;
     private String car_model;
@@ -9,8 +10,13 @@ public class CarInfo {
     private double car_weight;
     private int car_price;
 
+/** Constructors to create a new instance of the class */
+    // Default constructor with no arguments
     public CarInfo() {
     }
+
+    // Constructor with arguments to initialize fields
+
     public CarInfo(String car_information, String vin_number, String car_model, String car_color, int car_year, double car_weight, int car_price) {
         this.car_information = car_information;
         this.vin_number = vin_number;
@@ -21,6 +27,7 @@ public class CarInfo {
         this.car_price = car_price;
     }
 
+    /** Getter and setter methods for each Variable */
     public String getCar_information() {
         return car_information;
     }

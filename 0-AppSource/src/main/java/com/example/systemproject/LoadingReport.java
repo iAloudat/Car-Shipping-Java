@@ -1,6 +1,7 @@
 package com.example.systemproject;
 
 public class LoadingReport {
+    /** Variables to store Client Loading Report */
     private int bookingNumber;
     private int clientId;
     private String bookingDate;
@@ -21,9 +22,11 @@ public class LoadingReport {
     private String vin_number3;
     private String vin_number4;
 
+    /** Constructors to create a new instance of the class */
+    // Default constructor with no arguments
     public LoadingReport() {
     }
-
+    // Constructor with arguments to initialize fields
     public LoadingReport(int bookingNumber, int clientId, String bookingDate, String originCountry, String shippingLine,
                          String terminal, String destinationCountry, int containerNumber, String sealNumber,
                          int containerSize, int containerWeight, String shipNumber, String vesselName,
@@ -49,6 +52,8 @@ public class LoadingReport {
         this.vin_number3 = vin_number3;
         this.vin_number4 = vin_number4;
     }
+
+    /** Getter and setter methods for each Variable */
 
     public int getBookingNumber() {
         return bookingNumber;

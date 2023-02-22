@@ -1,14 +1,19 @@
 package com.example.systemproject;
 
 public class Client {
+    /** Variables to store Client information */
     private int client_id;
     private String client_name;
     private String company_name;
     private String tel;
     private String email;
 
+    /** Constructors to create a new instance of the class */
+    // Default constructor with no arguments
     public Client() {
     }
+
+    // Constructor with arguments to initialize fields
     public Client(int client_id, String client_name, String company_name, String tel, String email) {
         this.client_id = client_id;
         this.client_name = client_name;
@@ -17,6 +22,7 @@ public class Client {
         this.email = email;
     }
 
+    /** Getter and setter methods for each Variable */
     public int getClient_id() {
         return client_id;
     }
