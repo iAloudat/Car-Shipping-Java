@@ -7,7 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 import org.sqlite.SQLiteDataSource;
-
+ 
 public class ConnectToDB {
 
     //inserting
@@ -52,7 +52,7 @@ public class ConnectToDB {
 
         int n= loadingReport.getNumberOfCars();
         if(n>=1) {
-            String queryCarInfo = insertClientQuery(car1);
+            String queryCarInfo = insertCarQuery(car1);
             try (Connection conn = ds.getConnection(); //creating connection
                  Statement stmt = conn.createStatement();) { //create a statement, execute the query, save the result in rv
                 int rvqueryCarInfo = stmt.executeUpdate(queryCarInfo);
@@ -63,7 +63,7 @@ public class ConnectToDB {
             }
         }
         if(n>=2) {
-            String queryCarInfo = insertClientQuery(car2);
+            String queryCarInfo = insertCarQuery(car2);
             try (Connection conn = ds.getConnection(); //creating connection
                  Statement stmt = conn.createStatement();) { //create a statement, execute the query, save the result in rv
                 int rvqueryCarInfo = stmt.executeUpdate(queryCarInfo);
@@ -74,7 +74,7 @@ public class ConnectToDB {
             }
         }
         if(n>=3) {
-            String queryCarInfo = insertClientQuery(car3);
+            String queryCarInfo = insertCarQuery(car3);
             try (Connection conn = ds.getConnection(); //creating connection
                  Statement stmt = conn.createStatement();) { //create a statement, execute the query, save the result in rv
                 int rvqueryCarInfo = stmt.executeUpdate(queryCarInfo);
@@ -85,7 +85,7 @@ public class ConnectToDB {
             }
         }
         if(n>=4) {
-            String queryCarInfo = insertClientQuery(car4);
+            String queryCarInfo = insertCarQuery(car4);
             try (Connection conn = ds.getConnection(); //creating connection
                  Statement stmt = conn.createStatement();) { //create a statement, execute the query, save the result in rv
                 int rvqueryCarInfo = stmt.executeUpdate(queryCarInfo);
@@ -124,7 +124,7 @@ public class ConnectToDB {
     }
 
     //creating insertCarInfoQuery function
-    public String insertClientQuery(CarInfo car) {
+    public String insertCarQuery(CarInfo car) {
         return "INSERT INTO CarInfo ( car_information, vin_number, car_model, car_color, car_year, car_weight, car_price)"
                 + " VALUES ( '"+car.getCar_information()+"', '"+car.getVin_number()+"', '"+car.getCar_model()+
                 "', '"+car.getCar_color()+"', "+car.getCar_year()+", "+car.getCar_weight()+ ", "+ car.getCar_price()+" )";
