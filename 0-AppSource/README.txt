@@ -31,4 +31,3 @@ Folders
 - src
 - images
 - data
-
