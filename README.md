@@ -2,9 +2,9 @@
 
 
 ## Team Members: 
-- Iyad Aloudat, 
-- Mohammad Altamimi, 
-- Siroos Rahimi, 
+- Iyad Aloudat
+- Mohammad Altamimi
+- Siroos Rahimi
 - Doris Chan
 
 ## Important Links: 
